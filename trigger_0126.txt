@@ -1,0 +1,121 @@
+
+CREATE OR REPLACE TRIGGER LXBO_4F70A3B1_OWNER_TRG
+AFTER UPDATE OR DELETE
+ON LXBO_4F70A3B1
+REFERENCING NEW AS NEW OLD AS OLD
+FOR EACH ROW
+declare
+  v_count number :=0;
+  v_type varchar2(128 byte);
+  v_state varchar2(128 byte);
+  v_rev varchar2(128 byte);
+  v_modDate varchar2(128 byte);
+  v_name varchar2(128 byte);
+begin
+  if (:new.lxflags <> -1)
+  then
+    select count(1) into v_count from MXBUSTYPE  where mxname in ('Plant') and MXOID=:new.LXTYPE ;
+    if (v_count <> 0 and (:new.lxstate <> :old.lxstate or :new.lxname <> :old.lxname )) 
+    then
+		select d.mxname ,a.lxname,a.lxrev, c.mxname, a.LXMODDATE
+        into v_type,v_name,v_rev,v_state,v_modDate
+		from lxbo_4f70a3b1 a, MXSTATEREQ c, MXBUSTYPE d 
+		where 
+		a.lxoid in (select LXFROMID from lxRO_4f70a3b1 where LXTOID=:new.LXOID) and 
+		a.lxstate in (select mxoid from MXSTATEREQ where mxname in ('Release','Approved','Qualified','Frozen','Active','Deactive','Pending','Accepted','Rejected','Exists')) and 
+		a.LXTYPE = d.MXOID and 
+		d.mxname in 
+			('ArtiosCAD Component',
+			'pgArtwork',
+			'pgPKGConsumerProposition',
+			'pgConsumerUnitPart',
+			'pgPKGProductReadiness',
+			'pgCustomerUnitPart',
+			'pgPKGDIPlatform',
+			'External Material',
+			'Finished Product Part',
+			'pgFinishedProduct',
+			'pgFormulatedProduct',
+			'Formula Technical Specification',
+			'Formulation Part',
+			'pgPKGDevelopmentOther',
+			'pgIllustration',
+			'pgInnerPackUnitPart',
+			'pgIPMDocument',
+			'pgRawMaterial',
+			'pgPLIStudyType',
+			'pgMasterProductPart',
+			'Packaging Assembly Part',
+			'Packaging Material Part',
+			'pgPackingMaterial',
+			'pgPackingInstructions',
+			'pgPackingSubassembly',
+			'pgAncillaryPackagingMaterialPart',
+			'pgAncillaryRawMaterialPart',
+			'pgApprovedSupplierList',
+			'Assembled Product Part',
+			'pgAssembledProductPart',
+			'pgAuthorizedConfigurationStandard',
+			'pgAuthorizedTemporarySpecification',
+			'pgBaseFormula',
+			'pgCompetitiveProductPart',
+			'pgConsumerDesignBasis',
+			'pgDeviceProductPart',
+			'pgFabricatedPart',
+			'pgIntermediateProductPart',
+			'pgIPMUniversalDocument',
+			'pgLaboratoryIndexSpecification',
+			'pgMakingInstructions',
+			'pgMasterConsumerUnitPart',
+			'pgMasterCustomerUnitPart',
+			'pgMasterFinishedProduct',
+			'pgMasterInnerPackUnitPart',
+			'pgMasterPackagingAssemblyPart',
+			'pgMasterPackagingMaterialPart',
+			'pgMasterPackingMaterial',
+			'pgMasterRawMaterial',
+			'pgMasterRawMaterialPart',
+			'pgOnlinePrintingPart',
+			'pgProcessStandard',
+			'pgPromotionalItemPart',
+			'pgSmartLabel',
+			'POA',
+			'pgPOADocument',
+			'Qualification',
+			'pgQualitySpecification',
+			'Raw Material',
+			'pgRawMaterialPlantInstruction',
+			'pgAAA_RTA_Generic_Document',
+			'Software Build',
+			'pgSoftwarePart',
+			'pgStabilityOther',
+			'pgPKGOutofSpec',
+			'pgPKGStabilityProtocol',
+			'pgPKGStabilityReport',
+			'pgStackingPattern',
+			'pgStandardOperatingProcedure',
+			'pgPKGStudyProtocol',
+			'Supplier Equivalent Part',
+			'pgSupplierInformationSheet',
+			'pgPKGTechnicalRationale',
+			'Test Method Specification',
+			'pgPKGTranslationFile',
+			'Transport Unit Part',
+			'pgTransportUnitPart',
+			'pgValidationOther',
+			'pgPKGValidationProtocol',
+			'pgPKGValidationReport',
+			'pgIPMEBPSummary',
+			'Consumer Unit Part',
+			'Customer Unit Part') and
+		a.lxstate = c.mxoid;
+		insert into sr_monitor
+        values (v_type,v_name,v_rev,v_state,v_modDate,sysdate);
+    end if;
+  end if;
+end;
+/
+
+
+
+

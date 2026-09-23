@@ -1,0 +1,257 @@
+Table  : PLMPRD3ADMIN.DELETE_SREBPSUMMARY
+Trigger : PLMPRD3ADMIN.LXBO_4F70A3B1_TEST_DEL_TRG
+
+
+INSERT INTO PLM18X0MDEV.SR_MONITOR (TYPE, NAME, REV, STATE, MOD_TIMESTAMP, REPLICATION_TIMESTAMP) VALUES ('pgDeviceProductPart', '90639595', '007', 'Release', '09/23/2021 06:42:01', '09/23/2021 06:42:01');
+
+alter SESSION set NLS_DATE_FORMAT = 'MM/DD/YYYY HH24:MI:SS';
+
+8/23/2021 10:00:21 AM
+
+select owner,object_name,object_type from dba_objects where object_name='LXBO_4F70A3B1_UPSERT_DEL_TRG_CCT';
+select owner,object_name,object_type from dba_objects where object_name='LXBO_4F70A3B1_TEST_DEL_TRG';
+
+select text from user_source where name='LXBO_4F70A3B1_UPSERT_DEL_TRG' and type='TRIGGER';
+LXBO_4F70A3B1_UPSERT_DEL_TRG 
+select text from user_source where name='LXBO_4F70A3B1_UPSERT_DEL_TRG' and type='TRIGGER';
+LXBO_4F70A3B1_UPSERT_DEL_TRG
+select owner,object_name,object_type from dba_objects where object_name='LXBO_4F70A3B1_UPSERT_DEL_TRG';
+
+ALTER TRIGGER trigger_name DISABLE;
+
+select owner,object_name,object_type from dba_objects where object_name='LXBO_4F70A3B1_OWNER_TRG';
+select text from user_source where name='LXBO_4F70A3B1_OWNER_TRG' and type='TRIGGER';
+
+select ORIGIN_CON_ID from user_source where name='LXBO_4F70A3B1_OWNER_TRG' and type='TRIGGER';
+
+SELECT object_name FROM dba_objects;
+
+SELECT created
+  FROM dba_objects
+ WHERE object_name = 'LXBO_4F70A3B1_UPSERT_DEL_TRG'
+   AND owner = 'PLMPRD3ADMIN'
+   AND object_type = 'TRIGGER';
+   
+set lines 300
+set pages 2000
+col TYPE for a40
+col NAME for a40
+col LINE for a10
+col ORIGIN_CON_ID for a10
+
+442350
+
+SELECT * FROM ALL_TRIGGERS WHERE STATUS = 'DISABLED';
+SELECT STATUS FROM ALL_TRIGGERS WHERE TRIGGER_NAME = 'LXBO_4F70A3B1_OWNER_TRG';
+SELECT STATUS FROM ALL_TRIGGERS WHERE TRIGGER_NAME = 'LXBO_4F70A3B1_UPSERT_DEL_TRG';
+SELECT OWNER, TRIGGER_NAME, STATUS FROM ALL_TRIGGERS WHERE STATUS = 'ENABLED';
+
+ALTER TRIGGER LXBO_4F70A3B1_UPSERT_DEL_TRG DISABLE;
+ALTER TRIGGER LXBO_4F70A3B1_UPSERT_DEL_TRG ENABLE;
+
+select text from user_source where name='LXBO_4F70A3B1_UPSERT_DEL_TRG' and type='TRIGGER';
+select text from user_source where name='LXBO_4F70A3B1_EBP_DEL_TRG' and type='TRIGGER';
+
+
+describe DELETE_SREBPSUMMARY;
+select * from DELETE_SREBPSUMMARY;
+
+SELECT STATUS FROM USER_TRIGGERS WHERE TRIGGER_NAME = 'LXBO_4F70A3B1_EBP_DEL_TRG'
+
+select LXNAME from PLM18X0MDEV.lxBO_4f70a3b1 where lxModDate >= sysdate - 10/(24*60);
+
+select LXMODDATE||'|'||LXOID from PLM18X0MDEV.lxBO_4f70a3b1 where LXNAME= 'CCL LABEL SIOUX FALLS INC~10015206';
+
+select LXNAME||'|'||LXOID||'|'||LXTYPE||'|'||LXSTATE from PLM18X0MDEV.lxBO_4f70a3b1 where LXMODDATE>09/11/2014 09:30:54 and LXREV='002';
+
+
+select LXNAME||'|'||LXOID||'|'||LXTYPE||'|'||LXSTATE from PLM18X0MDEV.lxBO_4f70a3b1 where LXMODDATE>09/11/2014 09:30:54 and LXREV='002';
+
+select LXORG||'|'||LXOID||'|'||LXTYPE||'|'||LXSTATE||'|'||LXMODDATE from PLM18X0MDEV.lxBO_4f70a3b1 where LXNAME='80300473' and LXREV='005';
+
+select DISTINCT TYPE||'|'||NAME||'|'||REV FROM PLMPRD3ADMIN.SR_MONITOR where TYPE='Software Build';
+
+SELECT DISTINCT column_name_1, column_name_2 FROM your_table_name;
+
+
+select DISTINCT TYPE||'|'||NAME||'|'||REV from PLM18X0MDEV.SR_MONITOR where REPLICATION_TIMESTAMP >= sysdate - 60/(24*60);
+
+pgDeviceProductPart||006|20336.41905.32769.22642|Release|3/19/2021
+
+UPDATE PLM18X0MDEV.SR_MONITOR SET REPLICATION_TIMESTAMP = '09/27/2021 00:29:04', MOD_TIMESTAMP= '09/22/2021 23:43:16' WHERE NAME = 90639595;
+
+
+ TYPE                                               VARCHAR2(128)
+ NAME                                               VARCHAR2(128)
+ REV                                                VARCHAR2(128)
+ STATE                                              VARCHAR2(128)
+ MOD_TIMESTAMP                                      DATE
+ REPLICATION_TIMESTAMP                              DATE
+
+
+SQL> select sysdate from dual;
+
+SYSDATE
+-------------------
+09/23/2021 06:27:40
+
+SQL> select  sysdate - 1/(24*60) from dual;
+
+SYSDATE-1/(24*60)
+-------------------
+09/23/2021 06:26:53
+
+
+
+select * from ( select  lxoid from  lxBO_4f70a3b1 order by lxoid ) where rownum <= 10;
+
+
+SELECT STATUS FROM USER_TRIGGERS WHERE TRIGGER_NAME = 'LXBO_4F70A3B1_UPSERT_DEL_TRG'
+
+
+select  * from PLM18X0MDEV.SR_MONITOR where REPLICATION_TIMESTAMP between CURRENT_TIMESTAMP  and '15-SEP-21';
+
+Select * from mxstatereq where mxoid='229714323';
+
+select  * from PLM18X0MDEV.SR_MONITOR where REPLICATION_TIMESTAMP between '15-SEP-21' and CURRENT_TIMESTAMP;
+
+SELECT * FROM PLM18X0MDEV.SR_MONITOR  where whenoccured >= date_sub(now(), interval 5 minute);
+
+SELECT * FROM PLM18X0MDEV.SR_MONITOR WHERE whenoccured >= NOW() - INTERVAL 5 MINUTE;
+
+
+SELECT * FROM PLM18X0MDEV.SR_MONITOR  WHERE REPLICATION_TIMESTAMP >= now() - interval 5 minute;
+
+select * from PLM18X0MDEV.SR_MONITOR where REPLICATION_TIMESTAMP >= CURRENT_TIMESTAMP - interval '1' minute;
+
+select * from PLM18X0MDEV.SR_MONITOR where REPLICATION_TIMESTAMP >= sysdate - 1/(24*60)
+
+select /*+ csv */ * from PLM18X0MDEV.SR_MONITIOR where REPLICATION_TIMESTAMP >= CURRENT_TIMESTAMP - interval '1' minute;
+
+
+SELECT col1, col2, col3 
+FROM table
+WHERE DATE_ADD(last_seen, INTERVAL 10 MINUTE) >= NOW();
+
+select DISTINCT TYPE||'|'||NAME||'|'||REV from PLMPRD3ADMIN.SR_MONITOR where TYPE='Software Build';
+
+select DISTINCT TYPE||'|'||NAME||'|'||REV from PLMPRD3ADMIN.SR_MONITOR where REPLICATION_TIMESTAMP >= '&1' and TYPE='pgIPMDocument';
+
+
+SELECT * FROM PLM18X0MDEV.SR_MONITOR WHERE DATE_ADD(REPLICATION_TIMESTAMP, INTERVAL '3' MINUTE) >= CURRENT_TIMESTAMP;
+
+
+SELECT * FROM PLM18X0MDEV.SR_MONITOR WHERE REPLICATION_TIMESTAMP(last_seen) >= CURRENT_TIMESTAMP - INTERVAL '10' MINUTE;
+
+
+select * from PLM18X0MDEV.SR_MONITOR;
+select * from PLMPRD3ADMIN.SR_MONITOR;
+
+SELECT NOW(), CAST(NOW() AS TIMESTAMP), CAST(NOW() AS DATE), CAST(NOW() AS TIME),CURRENT_DATE,CURRENT_TIME;
+
+-- can include time by specifying in YYYY-MM-DD hh:mm:ss format:
+select  *
+from events
+where event_date between '2020-01-01 12:00:00' and '2020-01-01 23:30:00';
+
+
+
+SELECT created
+  FROM dba_objects
+ WHERE object_name = 'SR_MONITOR'
+   AND owner = 'PLMPRD3ADMIN'
+   AND object_type = 'TABLE';
+   
+   
+   SELECT created
+  FROM dba_objects
+ WHERE object_name = 'DELETE_SREBPSUMMARY'
+   AND owner = 'PLMPRD3ADMIN'
+   AND object_type = 'TABLE';
+   
+ 
+select count(*) from SR_MONITOR where REPLICATION_TIMESTAMP < sysdate -30;
+67927
+
+select count(*) from SR_MONITOR;
+137566
+
+Bals: 69639
+
+select * from lxbo_4f70a3b1 where lxname='CCL LABEL SIOUX (FALLS) INC~10015206';
+
+select * from lxowner_4f70a3b1 where lXOID=-1956608176;
+
+select * from mxbustype where mxoid=-1623163846;
+
+
+select * from lxbo_4f70a3b1 where lxmoddate LIKE '%07-FEB-2022%';
+
+
+select * from lxhist_4f70a3b1 where lxkind=22 and lxval2='Active' and lxoid in (select lxoid from lxbo_4f70a3b1 where lxtype in (-1207896275));
+
+****************************************
+
+SR_MONITOR Clean Up Activity
+
+select count(*) from SR_MONITOR where REPLICATION_TIMESTAMP < sysdate -30;
+
+select * from SR_MONITOR;
+select * from SR_MONITOR;
+
+
+create or replace PROCEDURE SR_MONITOR_DEL_90DAYS
+as
+BEGIN
+DELETE from SR_MONITOR where REPLICATION_TIMESTAMP < sysdate -90;
+commit;
+END SR_MONITOR_DEL_90DAYS;
+/
+
+begin
+sys.DBMS_SCHEDULER.create_job (
+job_name => 'SR_MONITOR_DEL_90DAYS_JOB',
+job_type => 'STORED_PROCEDURE',
+job_action => 'SR_MONITOR_DEL_90DAYS',
+start_date => SYSTIMESTAMP,
+repeat_interval => 'FREQ=WEEKLY;BYDAY=SAT;BYHOUR=22',
+end_date => NULL,
+enabled => TRUE,
+comments => 'SR MONITOR DELETE 90DAYS');
+end;
+/
+
+
+select owner,object_name,object_type from dba_objects where object_name LIKE 'SR%';
+
+******************************************
+
+
+
+select relation::regclass, * from pg_locks where not granted;
+select transactionid, pid, mode from pg_locks where not granted;
+select pid from pg_locks where not granted;
+
+select 587468 
+from pg_locks l 
+join pg_class t on l.relation = t.oid 
+where t.relkind = 'r';
+
+select pid, state, usename, query, query_start 
+from pg_stat_activity 
+where 587468 in (
+  select pid from pg_locks l 
+  join pg_class t on l.relation = t.oid 
+  and t.relkind = 'r' 
+);
+
+SELECT pg_cancel_backend(587468);
+SELECT pg_terminate_backend(587468);
+
+
+select pid 
+from pg_stat_activity 
+where pid in (
+  select pid from pg_locks l 
+  join pg_class t on l.relation = t.oid 
+  and t.relkind = 'r' 
