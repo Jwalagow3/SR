@@ -1,0 +1,1693 @@
+CryptoUtilFix
+INC15293955
+
+F:\Test\src_updated\src\specanywhere_OLD_Package\specanywhere
+
+137.182.150.14 New VM
+azw-spcdev01.external.pg.com
+
+JWALAGOWSH
+
+AR507219
+
+D:\SpecsAnywhere\EBPRetriggerData\EBPReTriggerScript_QA
+
+Anywherefive.im	
+Specsanywhere5@gmail.com	
+SA072722
+
+https://schoolstart.ca/find-my-school
+
+SBMBackup:
+cp -v "${output_filename}" ${Staging_dir}/"SR_TO_SBM_SPECUPDATE_${TimeStamp}".csv
+
+SonarCube:
+https://sonarqubeenterprise.pgcloud.com/sonarqube/project/issues?id=SpecAnywhere&issueStatuses=OPEN%2CCONFIRMED
+
+https://eu1-ds-iam.3dexperience.3ds.com/cas/login?service=https%3A//eu1-partners-ifwe.3dexperience.3ds.com/
+
+PostMan: https://specsanywhere.postman.co/workspace/My-Workspace~8cebcf6a-115f-4b87-8cc0-c911042e7175/request/create
+
+https://dev.azure.com/pg-idq-devops/IDQ%20Spec%20Reader/_backlogs/backlog/IDQ%20Spec%20Reader%20Team/Stories/
+
+https://dev.azure.com/pg-idq-devops/IDQ%20Spec%20Reader/_build?definitionId=260 
+
+https://dev.azure.com/pg-idq-devops/IDQ%20Spec%20Reader/_build?view=folders
+
+power BI:
+https://app.powerbi.com/groups/me/apps/5aabb689-b935-433a-af74-117def96dc1d/reports/758ce67a-fccd-47c7-b02f-a40835b8901f/ReportSection?ctid=3596192b-fdf5-4e2c-a6fa-acb706c963d8&experience=power-bi
+
+Fax : 604-536-0505
+
+https://ping-pg.axisportal.io 
+
+User ID : unnam.nr
+T#      : DV5056
+
+
+Prd3_plmAdm|n
+INT\DV5056.t1
+
+NON PROD: Username:CMMDMPOSRWS pass: iqaK@27pol
+For Prod: Username:CMMDMPOSRWS Password: SR6all@1215
+
+LDAP:
+specreaderldapp.im	spec-ReaderProd0522
+specreaderldap.im	ceps-redaeRNP0522
+
+
+9369758710
+
+Password : House_158Pros
+
+png support : 0008001007907
+
+US P&G HelpDesk  : +1 8334414357
+
+Canada Infy Help : 855 335 4639
+
+LogonID: DV5056 
+Shortname: unnam.nr 
+Tiered Account Name: DV5056.t1
+Password: Srivigneshwara_123
+
+https://localhost:7070/enovia-api/priliminarydata/ARMP-00000476
+
+
+https://localhost:6069/enovia-api/pdf/prelim/DOC-0052649
+ 
+https://localhost:6069/enovia-api/priliminarydata/FPP-00433152
+ 
+
+UAN: Gowthami
+101040749631
+
+356303400286
+ShanumanS=890
+
+Shash1220195
+
+LANG=C
+LANG=en_US.UTF-8
+
+COMMON DOC from PostMan:
+https://specsdevna.pg.com:7071/enovia-api/cdoc/20336.41905.42560.52707/pi
+
+. /usr/DassaultSystemes/enoviaV6R2018x/server/scripts/mxEnv.sh
+
+cd /home/boindala.y/ShellScripts/ShellScripts/InitialLoad
+
+azl-spcapsmql21.xnp-cloud-pg.com
+
+SIT
+azl-spcapsmql01.xnp-cloud-pg.com  // MQL
+
+azl-spcapsesn11.xnp-cloud-pg.com  // Not using
+azl-spcapsmql22.xnp-cloud-pg.com
+azl-spcapseslog.xnp-cloud-pg.com
+azl-spcapsmql01.xnp-cloud-pg.com
+azl-spcapsmql23.xnp-cloud-pg.com
+azl-spcapsmql24.xnp-cloud-pg.com
+azl-spcapseslog.xnp-cloud-pg.com
+azl-spcapsms001.xnp-cloud-pg.com
+
+azl-enah101.int.pg.com
+
+https://azl-spcapsmql21.xnp-cloud-pg.com:9091/enovia-api/cup/20336.41905.54529.19620
+
+azl-spcapsora01.xnp-cloud-pg.com 
+
+azl-spcqaora01.xnp-cloud-pg.com    // DB Archie Monitor
+
+./logstash -f /etc/logstash/logstash-sample.conf >> /var/log/logstash/logstash_log.txt 
+
+/usr/share/logstash/bin
+
+cd /mnt/specsreaderadmin/logstash-external/bin
+nohup ./logstash -f /etc/logstash/logstash-external.conf >> /mnt/specsreaderadmin/logs/logstash/logstash-external.log &
+
+cd /mnt/specsreaderadmin/logstash/bin
+nohup ./logstash -f /etc/logstash/logstash_csv.conf >> /mnt/specsreaderadmin/logs/logstash/logstash-csv.log &
+
+Subahan Tondaladinne:  
+nohup /usr/etc/Delta/MasterBatch.sh > checkifrunning.out & 
+15 * * * * /usr/bin/php /home/rizwan/PHP-workspace/mgstore/testcron.php >> /home/rizwan/cron.out 
+*/3 * * * * /usr/etc/Delta/MasterBatch.sh >> /usr/etc/Delta/cron.out
+no I am working with one user 
+the above command is simple and will work
+
+/usr/DassaultSystemes/enoviaV6R2018x/server/linux_a64/tcl85/lib
+
+Verfify:
+cd /home/kumar.sk.16/enovia_jar/
+
+ls -ltr | grep Enovia_Service.sh
+ps -ef| grep Enovia_Service.sh
+
+kill -9 <PID>
+
+Execute service from Background :
+
+nohup ./logstash -f /etc/logstash/logstash-sample.conf >> /var/log/logstash/logstashTMSTEST_log.txt &
+nohup ./MasterBatch.sh >/home/boindala.y/ShellScripts/ShellScripts/InitialLoadLogs/InitialLoadMasterBatch.log &
+
+FF Studio :
+/opt/matrix/3dx/2018x/studio 
+
+|| current==Qualified
+http://plmutil.pg.com/stats/lb/ff.html
+http://plmutil.pg.com/stats/lb/prod.html
+https://almpg15.saas.microfocus.com/qcbin/start_a.jsp
+
+Synk Files to Logstash
+rsync -rvh --size-only --progress /home/boindala.y/ShellScripts/ShellScripts/InitialLoad/Output/ /home/kumar.sk.16/enovia-csv-content
+
+sudo systemctl enable crond.*/3 * * * * /home/boindala.y/ShellScripts/ShellScripts/Delta/MasterBatch.sh > /dev/null 2>&1
+sudo systemctl start crond.*/3 * * * * /home/boindala.y/ShellScripts/ShellScripts/Delta/MasterBatch.sh > /dev/null 2>&1
+
+curl -XGET 'http://10.123.192.30:9303/sit18x/_mapping?pretty'
+curl -X GET "10.123.192.30:9303/sit18x/_count?pretty" -H 'Content-Type: application/json' -d'
+curl -X GET "10.123.192.49:9303/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.24257.27304"
+}
+}
+}
+'
+
+curl -X GET "10.123.192.30:9303/_sitdocs_r_6_2_folder/_search?pretty" -H 'Content-Type: application/json' -d'{"query": {"match": {"id": "20336.41905.35072.8955"}}}'
+
+curl -X GET "10.123.192.30:9303/sitvendordb/_count?pretty" -H 'Content-Type: application/json' -d'
+
+curl -X GET "10.123.192.49:9303/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query" : {
+	"term" : { "type" : "pgIPMDocument" }
+}
+}
+'
+
+Elastic Dump commands:
+cd /usr/lib/node_modules/npm/node_modules/elasticdump/bin
+
+./elasticdump --input=http://137.182.150.51:9303/specreader_x6_0_3 --output=http://10.123.192.30:9303/specreader_elasticdumpx603 --type=analyzer
+./elasticdump --input=http://137.182.150.51:9303/specreader_x6_0_3 --output=http://10.123.192.30:9303/specreader_elasticdumpx603 --type=mapping
+./elasticdump --input=http://137.182.150.51:9303/specreader_x6_0_3 --output=http://10.123.192.30:9303/specreader_elasticdumpx603 --type=data --limit=10000
+
+
+10.123.192.30:9303/_status
+
+curl '137.182.150.51:9303/_cat/indices?v'
+curl '10.123.192.49:9303/_cat/indices?v'
+curl '10.123.192.30:9303/_cat/indices?v'
+curl '10.123.192.30:9303/_cat/indices?v'
+
+temp query bus pgDeviceProductPart MEP* * limit 10  select from[pgExternalBusinessPartners|to.type==Company] name;
+
+curl -XDELETE "137.182.150.51:9303/ebpnextgendecsprintdata"
+
+curl '10.123.192.30:9303/_cat/indices?v'
+
+postman:
+http://137.182.150.51:9303/_cat/indices?v
+curl -XGET 'http://137.182.150.51:9303/externalview_nextgen_data/_mapping?pretty'
+
+curl -X GET "10.123.192.30:9303/_search?pretty" -H 'Content-Type: application/json' -d'{"query": {"match_all": {}}}'
+
+AP Region:
+http://137.182.150.51:9303/_cat/indices?v'
+
+curl '137.182.150.51:9303/_cat/indices?v'
+
+curl '137.182.253:9303/_cat/indices?v'
+Schema Verify:
+curl -XGET 'http://10.123.192.49:9303/ebpspecification_qa/_mapping?pretty'
+curl -XGET 'http://10.123.192.49:9303/internalexternal_qa/_mapping?pretty'
+curl -XGET 'http://10.123.192.30:9303/internalexternal_sit/_mapping?pretty'
+curl -XGET 'http://10.123.192.30:9303/ebpspecification_sit/_mapping?pretty'
+
+curl -XGET 'https://azl-spcprdesn01.x-cloud-pg.com:9200/proddocs/_mapping?pretty'
+
+
+curl -X GET '10.123.64.35:9200/_cat/indices'
+http://10.123.64.35:9200"
+
+"https://azl-spcprdesn01.x-cloud-pg.com:9200","https://azl-spcprdesn02.x-cloud-pg.com:9200","https://azl-spcprdesn03.x-cloud-pg.com:9200"]
+
+curl 'https://azl-spcprdesn01.x-cloud-pg.com:9200/_cat/indices?v'
+curl 'https://azl-spcprdesn02.x-cloud-pg.com:9200/_cat/indices?v'
+curl 'https://azl-spcprdesn03.x-cloud-pg.com:9200/_cat/indices?v'
+
+
+curl -XGET 'http://localhost:9200/company/_mapping?pretty'
+
+curl -XGET 'http://10.123.192.49:9303/qavendordb/_mapping?pretty'
+curl -XGET 'http://10.123.192.30:9303//_mapping?pretty'
+
+https://pgplm.trivantis.com/pg/index.html 
+
+https://azl-spcqaesn01.xnp-cloud-pg.com:9200
+
+curl -X GET "https://azl-spcqaesn01.xnp-cloud-pg.com:9200/object_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"name": " DOC-0462437"
+}
+}
+}
+'
+
+curl -X GET "10.123.192.30:9303/object_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.36160.58137"
+}
+}
+}
+'
+/mnt/mql/PartialIndexing/staging/PMP_2021-11-17-21-12-10.csv
+
+For logstash:
+• VM: azl-spcapseslog 
+IP: 10.123.192.29
+
+
+For enovia delta scripts.
+IP: 10.123.192.31
+• VM: azl-spcapsmql01
+
+
+Elastic Search : 
+• VM: azl-spcapsesn11 -Master1
+IP: 10.123.192.26
+• VM: azl-spcapsesn12 -Master2
+IP: 10.123.192.30
+nohup ./elasticsearch >/mnt/elasticsearch/logs/elasticUpdate.log &  
+• VM: azl-spcapsesn13 -Datanode
+IP: 10.123.192.31
+
+VM: azl-spcapseskb (for kibana)
+IP: 10.123.192.27
+
+https://plmqa-3dp.pg.com/3dpassport/saml/login
+
+Specsanywhere5@gmail.com is below:
+SA072720
+
+
+MQL Layer : 
+• VM: azl-spcapsmql21
+IP: 10.123.192.22
+• VM: azl-spcapsmql22
+IP: 10.123.192.23
+• VM: azl-spcapsmql23
+IP: 10.123.192.25
+• VM: azl-spcapsmql24
+IP: 10.123.192.28
+
+azl-spcapseslog.xnp-cloud-pg.com
+azl-spcapsmql01.xnp-cloud-pg.com
+azl-spcapsesn12.xnp-cloud-pg.com
+azl-spcapsmql21.xnp-cloud-pg.com
+azl-spcapsmql22.xnp-cloud-pg.com
+azl-spcapsmql23.xnp-cloud-pg.com
+azl-spcapsmql24.xnp-cloud-pg.com
+
+azl-enah101.cloud-pg.com
+
+azl-spcapseslog.xnp-cloud-pg.com
+
+sys_ops password - tmasadmin
+
+https://10.123.192.15:7000/user/anywheresix.im
+
+91912022  734
+escoe.ja@pg.com
+
+specsit.pg.com
+
+/usr/etc/Delta
+36048
+https://dev.azure.com/specsanywhere/SpecAnywhereApp
+[‎7/‎24/‎2020 4:57 PM]  Sushil Kumar:  
+https://dev.azure.com/specsanywhere/SpecAnywhereApp
+
+curl -k https://10.123.192.28:9091
+azl-spcapsms001 
+https://almpg15.saas.microfocus.com/qcbin/authentication-point/discovery.jsp?redirect_uri=https%3A%2F%2Falmpg15.saas.microfocus.com%3A443%2Fqcbin%2Fstart_a.jsp
+
+https://plmh1cloud.pg.com/enovia
+
+F:\Jwala_Updated\workspace\SpecsanywhereV2\target
+
+sudo nohup java -Xmx1024m -jar fpp-reader-app-opp-0.0.1-SNAPSHOT.jar &
+
+nohup ./Enovia_Service_HF18.sh >/enovia_jar/logs/specanywhere.log &
+nohup ./Enovia_Service_HF18.sh >/home/kumar.sk.16/enovia_jar/specsanywhere_enovia_service.log &
+
+./Enovia_Service.sh
+scp fpp-reader-app-sep-0.0.1-SNAPSHOT.jar kumar.sk.16@azl-spcqams002.xnp-cloud-pg.com:/home/kumar.sk.16/api_jars/
+scp fpp-reader-app-sep-0.0.1-SNAPSHOT.jar kumar.sk.16@azl-spcqams002.xnp-cloud-pg.com:/home/kumar.sk.16/api_jars/
+
+scp partialindexdata.log unnam.nr@137.182.150.51:/mnt/mql/GenericTcl/
+scp partialindexdata.log unnam.nr@azl-spcaptscmp01.xnp-cloud-pg.com:/mnt/mql/GenericTcl
+
+
+scp GIR_2026-01-30-23-58-05.csv unnam.nr@azl-spcapseslog.external.pg.com:/home/unnam.nr/InitialLoadCSV
+
+
+scp EVDNextGenData55.csv unnam.nr@137.182.150.51:/opt/matrix/enovia-nextgenview-content
+
+azl-spcaptscmp01
+scp maradiya.vm@10.123.192.20:/mnt/mql/InitialLoad/staging/SoftwarePart.csv maradiya.vm@10.123.192.29:/usr/etc/enovia-csv-content
+
+
+scp *csv unnam.nr@10.123.64.46:/mnt/resource/InitialLoad/Output
+scp EVDNextGenData_Indirect_FPP_6.csv unnam.nr@10.123.64.46:/opt/matrix/EBPCSV
+
+scp EVDNextGenData_Indirect_FPP_6.csv sadhukhan.ss@10.123.64.46:/opt/matrix/EBPCSV
+
+scp *csv unnam.nr@10.123.64.34:/mnt/specsreaderadmin/Object_data_CSV_22x
+scp *csv unnam.nr@10.123.64.34:/mnt/specsreaderadmin/22x_ObjectCSV_Backup
+
+scp PMP_2026-01-29-00-03-57.csv unnam.nr@10.123.64.46:/opt/mql/OTR/Output/Latest
+
+scp *csv unnam.nr@10.123.64.34:/mnt/specsreaderadmin/22x_ObjectCSV_Backup
+
+
+scp PMP.csv unnam.nr@10.123.192.29:/home/unnam.nr/InitialLoadCSV
+
+systemctl status falcon-sensor
+
+https://infosys.webex.com/join/kapil.jadhav
+
+scp specanywhere-0.0.1-SNAPSHOT.jar AP-unnam.nr@azl-spcapsmql21.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+scp specanywhere-0.0.1-SNAPSHOT.jar AP-unnam.nr@azl-spcapsmql22.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+scp specanywhere-0.0.1-SNAPSHOT.jar AP-unnam.nr@azl-spcapsmql23.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+scp specanywhere-0.0.1-SNAPSHOT.jar AP-unnam.nr@azl-spcapsmql24.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+
+scp <localpath> <username@server_ip:/path_to_remote_directory>
+scp TUP_Errorlog.csv specsreaderadmin@10.123.192.29:/tmp
+
+scp IPM2_Test_29_2020.csv AP-unnam.nr@azl-spcapseslog.xnp-cloud-pg.com:/home/unnam.nr
+
+scp Enovia_Service.sh AP-unnam.nr@azl-spcapseslog.xnp-cloud-pg.com:/usr/etc/enovia-csv-content
+
+scp specanywhere-0.0.1-SNAPSHOT.jar AP-unnam.nr@azl-spcapsmql01.xnp-cloud-pg.com:/mnt/mql/lib
+
+DB Querys:
+export ORACLE_SID=spect101
+export ORACLE_HOME=/opt/oracle/product/12.2.0.1.190716
+export PATH=$PATH:$ORACLE_HOME/bin:$ORACLE_HOME/OPatch:.
+
+DB is up 
+
+ps -ef | grep pmon
+
+Listener is up
+
+ps -ef | grep tns
+
+/var/DassaultSystemes/Licenses
+scp PROS_2020-09-08-04-59-05.csv AP-unnam.nr@azl-spcapseslog.xnp-cloud-pg.com:/home/unnam.nr
+
+
+chown -R specsreaderadmin:specsreaderadmin DassaultSystems
+
+
+QA Servers:
+
+azl-spcqaora001.xnp-cloud-pg.com //DB
+azl-spcqaui001.xnp-cloud-pg.com  // UI
+azl-spcqamql01.xnp-cloud-pg.com  //MQL
+azl-spcqamql21.xnp-cloud-pg.com
+azl-spcqamql22.xnp-cloud-pg.com
+azl-spcqamql23.xnp-cloud-pg.com
+azl-spcqamql24.xnp-cloud-pg.com
+
+azl-spcqaesn01.xnp-cloud-pg.com  // ES
+azl-spcqaesn02.xnp-cloud-pg.com
+azl-spcqaesn03.xnp-cloud-pg.com
+
+azl-spcqaeskb.xnp-cloud-pg.com  //KIBANA
+azl-spcqaeslog.xnp-cloud-pg.com //Logstash
+azl-spcqams001.xnp-cloud-pg.com
+azl-spcqams002.xnp-cloud-pg.com
+
+curl GET 'https://azl-spcqaesn01.xnp-cloud-pg.com:9200/_cat/indices?pretty'  // File Count
+
+scp specanywhere-0.0.1-SNAPSHOT.jar unnam.nr@azl-spcqamql21.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+scp specanywhere-0.0.1-SNAPSHOT.jar unnam.nr@azl-spcqamql22.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+scp specanywhere-0.0.1-SNAPSHOT.jar unnam.nr@azl-spcqamql23.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+scp specanywhere-0.0.1-SNAPSHOT.jar unnam.nr@azl-spcqamql24.xnp-cloud-pg.com:/home/kumar.sk.16/enovia_jar
+
+
+scp logstash_csv.conf unnam.nr@azl-spcqaeslog.xnp-cloud-pg.com:/home/unnam.nr
+
+FSScaller:
+install on /home/kumar.sk.16/fscrawler-es7-2.7-SNAPSHOT/bin
+nohup ./fscrawler.sh  qadocs >/home/kumar.sk.16/fscrawler-es7-2.7-SNAPSHOT/logs/fscrawler_service.log &
+
+curl -XGET --header 'Content-Type: application/json' http://10.123.192.49:9200/qaspec/_search -d '{
+  "query" : {
+	"match" : {"name":"91317402"}
+}
+}'
+
+DPID=$(ps -ef | grep fscrawler | grep -v grep)
+
+curl -v -XPUT "https://azl-spcqaesn01.xnp-cloud-pg.com:9200/qaspec"
+
+Check indexes:
+curl GET 'https://azl-spcqaesn01.xnp-cloud-pg.com:9200/_cat/indices?pretty'
+
+Delete Cluster Index: ******
+curl -X DELETE https://azl-spcqaesn01.xnp-cloud-pg.com:9200/qadocscluster_folder/
+
+Delete Object:
+curl -X DELETE "https://azl-spcprdesn01.x-cloud-pg.com:9200/externalview_data/_doc/20336.41905.9977.57838?pretty"
+
+Create cluster index:
+curl -v -XPUT "https://azl-spcqaesn01.xnp-cloud-pg.com:9200/qadocscluster"
+
+Delete Index:
+curl -XDELETE "10.123.192.30:9303/ebpnextgendecsprintdata"
+
+curl -X GET "10.123.192.49:9303/qaspec/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"type": "Assembled Product Part"
+}
+}
+}
+' 
+
+curl -X GET "10.123.192.49:9303/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.50072.52040"
+}
+}
+}
+'
+
+1.Login as anywheretwo.im
+2.Search for part 91272867
+3.Navigate to the Attributes category
+
+Install rclone :
+curl https://rclone.org/install.sh | sudo bash
+
+Unmount:
+fusermount -zu /usr/etc/enovia-csv-content
+fusermount -zu /usr/etc/enovia-externalview-content
+
+rclone mount enovia-csv-container:enovia-csv-container/store /etc/rclone --daemon --log-file=rclonelog.txt
+rclone mount enovia-csv-container:enovia-csv-container/store /usr/etc/enovia-csv-content --daemon --log-file=rclonelog.txt
+
+Mount the blob path for CSV container after intaling rclone:
+
+rclone mount enovia-csv-container:enovia-csv-container /usr/etc/enovia-csv-content --daemon --log-file=rclonelog.txt
+
+"query": {  "match": {
+"content": "This is"
+}
+}
+}
+'
+35326
+
+
+Steps to restart:
+1.Fusermount –zu /etc/HVR_STORE
+2.Kill fscrawler
+3.rclone mount enovia-docs-container:enovia-docs-container/store /etc/HVR_STORE/ --cache-chunk-no-memory --daemon --log-file=rclone_log.txt
+4.nohup ./fscrawler.sh  proddocs >/home/specsreaderadmin/fscrawler-es7-2.7-SNAPSHOT/logs/fscrawler_service.log &
+
+//Postman URL:
+https://specsdevap.pg.com:7072/enovia-api/mep/20336.41905.31914.44566
+
+PROD Servers:
+
+http://specreader.pg.com/
+
+azl-spcprdora1.xnp-cloud-pg.com  //DB
+
+azl-spcprdmql01.xnp-cloud-pg.com 10.123.64.46 //MQL
+
+azl-spcprdmql21.xnp-cloud-pg.com 10.123.64.25 //MQL-Services
+azl-spcprdmql22.xnp-cloud-pg.com 10.123.64.33
+azl-spcprdmql23.xnp-cloud-pg.com 10.123.64.37
+azl-spcprdmql24.xnp-cloud-pg.com 10.123.64.40
+
+azw-spwbnad002.xnp-cloud-pg.com
+azl-spcprdesn01.xnp-cloud-pg.com // ES
+azl-spcprdesn02.xnp-cloud-pg.com
+azl-spcprdesn03.xnp-cloud-pg.com
+azl-spcprdeskb.xnp-cloud-pg.com //KIBANA
+azl-spcprdeslog.xnp-cloud-pg.com //Logstash
+
+nohup ./Enovia_Service_HF16.sh >/enovia_jar/specsanywhere_enovia_service.log &
+nohup ./Enovia_Service_HF18.sh >/enovia_jar/specsanywhere_enovia_service.log &
+
+PROD MQL Services:
+10.123.64.25 (21)
+10.123.64.33 (22)
+10.123.64.37 (23)
+10.123.64.40 (24)
+
+Steps to Start MQL services in PROD:
+
+1. Deploy the build from Pipeline
+2. Navigate to /enovia_jar
+3. execute SyncEnoviaJars.sh (Only if we do any new deployment we execute this script to take old jar backup and place new jar)
+4. run below command to start service
+nohup ./Enovia_Service_HF16.sh >/enovia_jar/specsanywhere_enovia_service.log &
+
+
+nohup ./Enovia_Service_HF18.sh >/enovia_jar/logs/specsanywhere_enovia_service.log &
+
+nohup ./Enovia_Service_HF18.sh >/home/kumar.sk.16/enovia_jar/specsanywhere_enovia_service.log &
+
+AP: nohup ./Enovia_Service_HF18.sh >/opt/matrix/EnoviaServices/logs/specanywhere_enovia_service_2022_04_20_01:15:59.log &
+
+nohup ./Enovia_Service_HF18.sh >/mnt/resource/specsanywhere_enovia_service.log &
+
+nohup ./Enovia_Service_HF18.sh >/opt/matrix/EnoviaServices/logs/specsanywhere_enovia_service.log &
+nohup ./Enovia_Service_HF18.sh >/opt/matrix/PlatformScripts/logs/specsanywhere_enovia_service.log &
+
+nohup java -Xmx512m -jar -Dspring.profiles.active=apdev search-elastic-app-0.0.1-SNAPSHOT.jar &
+
+tail -100f specsanywhere_enovia_service.log (to check logs)
+
+nohup java -Xmx512m -jar -Dspring.profiles.active=sdev fpp-reader-app-0.0.1-SNAPSHOT.jar &
+
+
+Jenkins Pipelines:
+•Dev2-ap deployment pipeline – https://jaas.pg.com/idq-plm/job/SpecReader/view/DEV2%20AP/job/SpecAnywhere-Pipeline-DEV2-AP/
+•Dev-ap deployment pipeline  – https://jaas.pg.com/idq-plm/job/SpecReader/view/DEV%20AP/job/SpecAnywhere-Pipeline-DEV-AP/
+
+/opt/matrix/jenkins/slave_build_SDEV.sh                - with specsreaderadmin user
+
+/opt/matrix/jenkins/slave_build_SDEV_UI.sh             - with root user
+
+nohup ./Enovia_Service_HF22.sh >/opt/matrix/EnoviaServices/logs/specsanywhere_enovia_service.log &
+
+1843006 - Canada
+
+PartialIndex Launch Error with specsreaderadmin:
+
+chown -R specsreaderadmin:specsreaderadmin /opt/oracle/product/19.3_64bitclient
+chmod -R 775 /opt/oracle/product/19.3_64bitclient
+Execute as root user
+issue FIxed 
+
+SecretKey2=mD4OzYVRbon+bbmd42ektpg+Ds2FUW6J
+
+E108:Sorry, CATIA APP is under development in SpecReader: 20336.41905.52253.17850
+
+
+curl -X GET "http://10.123.192.30:9303/sitdocs_r_6_2/_count?pretty"
+
+curl GET 'http://10.123.192.30:9303/sitdocs_r_6_2/_stats?pretty'
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.30553.60142"
+}
+}
+}
+'
+
+temp query bus "'Consumer Unit Part',pgConsumerUnitPart" * * where "(current==Release || current==Obsolete) && (modified>11/14/2020)";
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/internalexternal_prod/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"path": "/usr/etc/enovia-csv-content/ACS_2021-11-25-06-27-18.csv"
+}
+}
+}
+'
+
+SIT: postman:
+http://10.123.192.30:9303/object_data/_count?pretty
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "name": "90061920"
+                    } 
+                }
+            ]
+        }
+    }
+}
+
+
+PROD:
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/internalexternal_prod/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "path": "/usr/etc/enovia-csv-content/GIR_2022-04-14-03-52-02.csv"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+nohup bash ./ILST.sh &
+
+PROD:
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.57295.5780"
+}
+}
+}
+'
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"name": "91952122"
+}
+}
+}
+'
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"type": "pgPackingMaterial"
+}
+}
+}
+' 
+
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/_search?pretty" -H 'Content-Type: application/json' -d' { "query": {   "match": {     "id": "20336.41905.34117.12512"   } } } '
+
+QA:
+curl -X GET "10.123.192.49:9303/qaspec/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"type": "Cosmetic Formulation"
+}
+}
+}
+' 
+
+curl -X GET "10.123.192.49:9303/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.42496.51704"
+}
+}
+}
+'
+
+SIT:
+
+curl -X GET "10.123.192.30:9303/ebpspecification_sit/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"type": "pgIPMEBPSummary"
+}
+}
+}
+' 
+
+curl -X GET "10.123.192.30:9303/internalexternal_sit/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.35809.54498"
+}
+}
+}
+'
+DEVS:
+
+curl -X GET "137.182.150.51:9303/object_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"type": "Formulation Part"
+}
+}
+}
+'
+
+curl -X GET "10.123.192.49:9303/internalexternal_qa/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"type": "pgMasterConsumerUnitPart"
+}
+}
+}
+'
+
+from[" +REFERENCEDOCUMENT + "].to[pgPOADocument]
+
+print bus 20336.41905.14409.39826 select from[Reference Document].to[pgPOADocument].fromat.file.name;
+
+
+curl -X GET "http://10.123.192.49:9303/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"bool": {
+"must": [
+{
+"wildcard": {
+"type.keyword": {
+"value": "pgDeviceProductPart",
+"boost": 1.0,
+"rewrite": "constant_score"
+}
+}
+} ] } }
+}
+'
+
+*************************************
+
+VM 28 have Defect fixes on Top of Dev Branch Release 1.1 Branch
+We need to Merge this with Release 1.1 and Release HF
+
+Now 93 has only Prod code and Working on Top
+
+Updated Code till 9th Oct:
+F:\Release_1.0_HF\UpdatedCOde_withDefect_Fixes_till9thOct.7z
+
+6975352458554
+
+Access to drive:
+Firewalls and Virtual network
+Manuvally add IP and save
+
+DROP Command to ES Index:37664
+curl -X DELETE 10.123.192.45:9303/qaspec/
+
+GTIN Test : 82234753
+
+AP region : 137.182.150.29
+
+Defects Status tested on QA- 17/12/2020
+
+//SPEC: Modified for Defect#37664 1.0.2 Release - Jwala -- START
+
+//SPEC: Modified for Defect#36978 1.0.2 Release - Jwala -- END
+
+Create Index in AP/NA:
+http://137.182.253.93:9303/indexname
+http://137.182..28150:9303/indexname
+
+
+curl -X GET "10.123.192.30:9303/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.54109.63946"
+}
+}
+}
+'
+naspec18x52
+apspec18x52
+postMan urls:
+
+https://specsdevap.pg.com:9303/ReleaseSR52
+http://137.182.150.28:9303/devspec_sit_x_6/_search
+http://137.182.150.51:9303/devspecs/_search
+
+DEV2S (Windows : 137.182.150.52)
+https://137.182.150.52:7071/enovia-api/armp/20336.41905.45422.60966
+
+{
+"query": {
+	"match": {
+		"id": "20336.41905.53469.37327"
+	}
+}
+}
+
+Pipeline Execution:
+cd /home/kumar.sk.16/azent
+Execute Below commands if pipeline says VM's are in Offline
+sudo ./svc.sh start
+sudo ./svc.sh status
+
+sudo crontab -u "specsreaderadmin" -l
+
+F:\logstash-7.6.1\logstash-7.6.1\bin>logstash -f "F:\logstash-7.6.1\logstash-7.6.1\config\logstash_csv.conf"
+
+mql -install -b MATRIX-R -user PLMPRD2ADMIN -password 2admin_Plmprd -host //azl-specnaddb02.np-cloud-pg.com:1524/specd1.na.pg.com -driver 'Oracle/OCI80'
+
+https://specsffap.pg.com/
+
+https://specsffap.pg.com/
+
+Fire-fight Environemnt		
+FF	azl-spcffora01	10.123.192.64
+FF	azl-spcffui01	10.123.192.62
+FF	azl-spcffmql01	10.123.192.60
+FF	azl-spcffmql21	10.123.192.66
+FF	azl-spcffmql22	10.123.192.65
+FF	azl-spcffesn01	10.123.192.61
+FF	azl-spcsitnakb	10.123.192.57
+FF	azl-spcffeslog	10.123.192.59
+FF	azl-spcsffms01	10.123.192.41
+FF	azl-spcsffms02	10.123.192.58
+
+azl-spcffora01    10.123.192.64     Oracle DB
+azl-spcffui01     10.123.192.62     UI application
+azl-spcffmql01    10.123.192.60     For mql services(delta job execution)
+azl-spcffmql21    10.123.192.66     For enovia mql services, load balanced
+azl-spcffmql22    10.123.192.65        
+azl-spcffesn01    10.123.192.61     ES data nodes
+azl-spcsitnakb    10.123.192.57     ES kibana
+azl-spcffeslog    10.123.192.59     ES logstash
+azl-spcsffms01    10.123.192.41     Microservices
+azl-spcsffms02    10.123.192.58     Microservices
+
+
+FF New:
+azl-spcffmql11.xnp-cloud-pg.com	10.123.192.38
+azl-spcffmql12.xnp-cloud-pg.com	10.123.192.32
+azl-spcffesn11.xnp-cloud-pg.com	10.123.192.34
+azl-spcffms01.xnp-cloud-pg.com	10.123.192.15
+azl-spcffms02.xnp-cloud-pg.com	10.123.192.6
+
+
+Dev2Ap env window machine  - 137.182.150.52
+
+ 10.123.192.32
+
+https://specsdevs.pg.com   - Dev2Ap Sushil
+
+https://services.gst.gov.in/services/searchtpbypan
+
+
+Update columns in Elastic Search:
+curl -X POST "https://azl-spcapsesn11.external.pg.com:9200/object_data_22x_4/_update/20336.41905.13066.47929?pretty" -H 'Content-Type: application/json' -d'
+{
+"doc": {
+"frompartspecstate": "Obsolete"
+}
+}
+'
+
+curl -X POST "137.182.150.51:9303/devspecs/_update/20336.41905.46838.52614?pretty" -H 'Content-Type: application/json' -d'
+{
+"doc": {
+"description": "Guidance document To provide guidelines in defining stability testing to ensure a consistent approach is applied to floss product families across markets including: • Key product characteristics • Test methods • Stability indicating specifications • Stability conditions"
+}
+}
+'
+
+curl -X POST "137.182.150.51:9303/devspecs/_update/20336.41905.63971.50362?pretty" -H 'Content-Type: application/json' -d'
+{
+"doc": {
+"description": "Cancel the 30 day 40°C/75%RH viscosity results."
+}
+}
+'
+
+to[Classified Item|from.current==Active].from[Security Control Class].name; --> please use this selectable for extracting project security of an object
+
+MQL<104>pri bus 20336.41905.45184.47066  select to[Classified Item|from.current==Active].from[Security Control Class].name;business object  pgArtwork 99571573 001
+to[Classified Item].from[Security Control Class].name = CSS VTO Test PSG1
+to[Classified Item].from[Security Control Class].name = CSS VTO Test PSG2
+
+
+Defect:{43357}-Roll back 43357 security change
+
+Defect:<defect-number>{defect-description}
+		   or
+Requirement:<requirement-number>{requirement-description}
+
+https://www.axelos.com/certifications/itil-certifications
+
+**************************************
+
+curl -X GET '10.123.192.49:9303/qaspecs_x_6/_count?pretty' -H 'Content-Type: application/json' -d' {​​​​​​​​"query": {​​​​​​​​"bool": {​​​​​​​​"must": [{​​​​​​​​"match" : {​​​​​​​​"type": "Formulation"}​​​​​​​​}​​​​​​​​,{​​​​​​​​"match" : {​​​​​​​​"type": "Part"}​​​​​​​​}​​​​​​​​,{​​​​​​​​"match": {​​​​​​​​"state": "Release"}​​​​​​​​}​​​​​​​​]}​​​​​​​​}​​​​​​​​}​​​​​​​​'
+
+curl -X GET '10.123.192.49:9303/qaspecs_x_6/_count?pretty' -H 'Content-Type: application/json' -d' {​​​​​"query": {​​​​​"bool": {​​​​​"must": [{​​​​​"match" : {​​​​​"type": "Formulation Part"}​​​​​}​​​​​,{​​​​​"match": {​​​​​"state": "Release"}​​​​​}​​​​​ ,{​​​​​"range": {​​​​​"@timestamp":{​​​​​"gte" : "now-1h/h"}​​​​​}​​​​​}​​​​​]}​​​​​}​​​​​}​​​​​'
+
+curl -X GET 'https://azl-spcprdesn01.x-cloud-pg.com:9200/prodspec/_count?pretty' -H 'Content-Type: application/json' -d' {"query": {"bool": {"must": [{"bool" : {"should" : [{"match" : {"type" : "pgPackingMaterial"}},
+{"bool" : {"must" :[{"match" : {"type" : "Packaging"}},{"match" : {"type": "Material"}},{"match" : {"type": "Part"}}]}}]}}]}}}'
+
+
+curl -X GET 'https://azl-spcprdesn01.x-cloud-pg.com:9200/prodspec/_count?pretty' -H 'Content-Type: application/json' -d' {"query": {"bool": {"must": [{"match": {"state": "Release"}},{"bool" : {"should"
+: [{"bool" : {"must" :[{"match" : {"type" : "pgMasterRawMaterialPart"}}]}}]}}]}}}'
+
+
+eval expr "COUNT TRUE" on temp query bus "pgMaterial" * * where '(current==Release) && (type!="pgMasterPackagingMaterialPart") && (type!="pgMasterPackingMaterial") && (type!="Packaging Material Part") &&(type!="pgPackingMaterial")';
+
+
+enovia.common.url=https://10.123.192.54:443/enovia-api/cdoc/
+enovia.vendor.url=https://10.123.192.54:443/enovia-api/vendor/
+enovia.poa.url=https://10.123.192.54:443/enovia-api/poa/
+
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"type": "pgPKGConsumerProposition"
+}
+}
+}
+' 
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+"match": {
+"id": "20336.41905.32648.2447"
+}
+}
+}
+'
+
+User Profile access:(Search)
+
+http://specsdevap-api.pg.com:5000/user/shah.ss.6
+
+find ./ -type d -name amit | wc -l
+find ./ -type f -name _settings.yaml | wc -l
+find ./ -type f -name _settings.yaml 
+
+Find filename from directory when we have word:
+grep --with-filename 'Extract generated at: Tue Oct 18 15:*' TEST*
+
+
+cd /home/unnam.r
+find . -type f | xargs grep -i "Jwala"
+
+pri bus 20336.41905.45184.47066  select to[Classified Item|from.current==Active].from[Security Control Class].name;
+
+business object  pgArtwork 99571573 001
+to[Classified Item].from[Security Control Class].name = CSS VTO Test PSG1
+to[Classified Item].from[Security Control Class].name = CSS VTO Test PSG2
+
+print bus 20336.41905.37442.7534 select to[pgIPMUniversalDocumentToStandard|from.current==Active].from.attribute[pgIPMUniversalDocumentRecipientGroup];
+
+https://10.123.192.38:7000/user/anywheretwo.im
+
+User Name :  sys_specreader
+Password  :  PROD18xAugadmin
+
+**************************************************
+User Update urls
+https://10.123.64.42:7000/user/nagaraj.sn.2     //prod
+https://10.123.192.43:7000/user/manufacturer.c  //QA
+https://10.123.192.51:7000/user/srthirteen.im   //SIT
+http://137.182.150.29:7000/user/anywhereone.im  //AP
+https://10.123.192.51:7000/user/anywheretwo.im  //SIT
+https://10.123.192.6:7000/user/anywheretwo.im   //FF
+http://137.182.150.51:7000/user/anywherefive.im //DEVS
+
+
+azl-specaptdb01
+azl-specaptdb01
+
+to Update USer Profile:
+http://137.182.150.29:5000/user/upload/userroles    // AP
+
+http://specsdevs.pg.com:5000/user/upload/userroles  // DEVS
+
+https://10.123.192.38:7000/user/upload/userroles    // QA
+https://10.123.64.42:7000/user/upload/userroles     // PROD
+https://10.123.192.58:7000/user/anywherefive.im     // FF
+
+**************************************************
+44581 : Remove Enovia Roles:
+
+tcl Change in DevAP : F:\Jwala\UserProfile_TCL_Modification
+Local : D:\SpecsAnywhere\UserProfile_TCL Change\UserProfile_TCL_Modification
+Code Change: ConstantsUtil.java, SecurityService.java
+Integretion Change from Search ConstantsUtil change
+
+***************************************************
+
+DB Triggers for dev : 
+
+DEVS:
+azl-spcaptdb01.np-cloud-pg.com:1524/specd2.ap.pg.com
+
+azl-spcaptdb01 : SPECD201 
+user name 	   : PLM18X0MDEV
+password       : Mdev_plm18x0
+
+specd201.na.pg.com=(DESCRIPTION=(SOURCE_ROUTE=OFF)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=azl-spcaptdb01.xnp-cloud-pg.com)(PORT=1524)))(CONNECT_DATA=(SID=SPECD201)(SERVER=DEDICATED)))
+spect101.na.pg.com=(DESCRIPTION=(SOURCE_ROUTE=OFF)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=azl-spcapsora01.xnp-cloud-pg.com)(PORT=1524)))(CONNECT_DATA=(SID=spect101)(SERVER=DEDICATED)))
+
+
+DEVAP:
+azl-spcaptdb003.np-cloud-pg.com:1524/specd4.ap.pg.com
+
+azl-spcaptdb003 : SPECD401
+username        : PLM18X0MDEV
+Password        : Mdev_plm18x0
+
+sqlplus PLM18X0MDEV/Mdev_plm18x0@specd401
+
+
+specd201.na.pg.com =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 137.182.150.50)(PORT = 1524))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SID = specd201)
+    )
+  )
+
+spect101.na.pg.com=(DESCRIPTION=(SOURCE_ROUTE=OFF)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=azl-spcapsora01.xnp-cloud-pg.com)(PORT=1524)))(CONNECT_DATA=(SID=spect101)(
+SERVER=DEDICATED)))
+
+
+SIT:
+azl-spcapsora01.xnp-cloud-pg.com
+
+azl-spcapsora01 : SPECT101
+username        : PLMPRD3ADMIN
+Password        : 3admin_Plmprd
+
+QA:
+PLMPRD3ADMIN/admin_Plmprd3@specq101 
+
+PROD:
+sqlplus PLMPRD3ADMIN/3admin_Plmprd@specp101
+
+PROD:
+
+plmprd3admin@specp101
+
+FF:
+azl-spcffora01.xnp-cloud-pg.com : specf101
+username                        : plmprd3admin
+Password                        : FFpwdadmin2021
+
+select owner, table_name from dba_tables where table_name='SR_MONITIOR';
+
+1. when ever BUS object modified in Database, there will be a DB trigger will fire to get that last 3 modified data and put into another table
+2. We will have shell script to read that data and pasted into CSV/log file
+3. We will have TCL to read this csv/log file and get more required attributes data and create one more CSV
+4. This CSV file will get consumed by Logstash and pushed into Elastic DB
+5. when we search data from Specreader UI data will come in search :)
+
+****************************************************
+
+CAB : Change Approval Board
+
+****LDAP***
+//Modified by Jwala for LDAP user/password changes -- START
+//public static final String STRLDAPURL_USER_ID  = "DD0969";
+//public static final String STR_LDAP_PASS  = "XMEHO4Hbrv1PaJ25OMqnqPMBGg36C2v6LN2Fln0l5ve6w+nkPOMx5xH0XBu2N8Kr";
+public static final String STRLDAPURL_USER_ID  = "DY1408";
+public static final String STR_LDAP_PASS  = "/iVJXUjSyb3xIElFKdXaNMkWNRIuhTNkiKB5xFlbcN26w+nkPOMx5xH0XBu2N8Kr";
+//Modified by Jwala for LDAP user/password changes -- END
+	
+*****LDAP*****
+
+*****************************************************************
+Steps are the following:
+
+mkdir /mnt/resource/elastic_backup_repo
+
+chown -R specsreaderadmin:specsreaderadmin /mnt/resource/elastic_backup_repo
+
+edit /etc/elasticsearch/elasticsearch.yml and add the below line:
+path.repo: ["/mnt/resource/elastic_backup_repo"]
+
+Restart Elastic : nohup /usr/share/elasticsearch/bin/elasticsearch >/mnt/elasticsearch/logs/es-qa.log &
+
+Register backup repo :
+curl -X PUT "10.123.192.49:9303/_snapshot/backup_repo?pretty" -H 'Content-Type: application/json' -d' { "type": "fs", "settings": { "location": "/mnt/resource/elastic_backup_repo" } } '
+
+Create snapshot:
+curl -X PUT "10.123.192.49:9303/_snapshot/backup_repo/snapshot_qadocs_Sep21?wait_for_completion=true&pretty -H 'Content-Type: application/json' -d' { "indices": "qadocs", "ignore_unavailable": true, "include_global_state": false, "metadata": { "taken_by": "Sushil", "taken_because": "for restoring 6.0.2 testing on dev" } } '
+
+Copy created snapshot to target server:
+cd /mnt/resource/
+tar -zcvf elasticsearch-snapshot.tar.gz elastic_backup_repo
+
+On destination VM, repeat steps 1-5
+
+Copy this elasticsearch-snapshot.tar.gz to destination VM /mnt/resource (via scp/winscp/..) and gunzip untar it
+
+Restore with the command:
+curl -X POST "10.123.192.49:9303/_snapshot/backup_repo/snapshot_qadocs_Sep21/_restore?pretty" -H 'Content-Type: application/json' -d' { ";ces": "qadocs", "ignore_unavailable": true, "include_global_state": false, "rename_pattern": "qa(.+)", "rename_replacement": "restored_dev_$1", "include_aliases": false } '
+
+*******************************************************************
+
+Defect 37214 - Internal – RM – AW2 - Plants should display
+Defect 37214,37215 - Internal – RM – AW2 - Plants should display
+
+
+1. If we update code in same pull PR checks wil get retrigger
+
+2. if any other PR get merged all open PR will be re Triggred
+
+*******************************************************************
+
+
+LDAP PROD:
+specreaderldapp.im
+EH3388
+sp3c=R3ad3rPr0d1021
+
+
+URLS:
+
+https://specssitap.pg.com/
+https://specsqaap.pg.com/
+https://specreader.pg.com/
+https://specsdevs.pg.com/
+https://specsdevap.pg.com/
+
+https://plmcontinuousdev.pg.com/enovia
+
+is:closed is:pr author:raj-kr-1 base:SpecReader_Release_22x
+is:closed is:pr base:SpecReader_Release_6.0.3
+is:closed is:pr archived:false base:SpecReader_Release_22x
+
+
+SpecAnywhere-Training:
+#28
+
+
+softlink:
+
+ln -s /mnt/resource/_Stag_Archive /mnt/mql/PartialIndexing/staging
+
+
+Monday_890
+
+
+PLSQL:
+
+COPY(SELECT * FROM users where ) 
+
+DEVS : psql "host=psql-pg-spcdevap2.postgres.database.azure.com port=5432 dbname=spcdev2pgres user=hosting password=Welcome20 sslmode=require"
+
+\dt : List of tables
+Update Job Status_table
+
+select * from job_status;
+update job_status SET is_job_running = false;
+
+
+PROD: psql "host=psql-pg-spcprd.postgres.database.azure.com port=5432 dbname=spcprdebppg user=hosting password=Welcome90 sslmode=require"
+\COPY (select * from externalviewnextgen where ebpstate='Accepted') TO /opt/mql/EnoviaCount/RITM7167960_08_20_2025/AcceptedEBPData.csv WITH CSV HEADER;
+\COPY (select * from externalviewnextgen where ebpstate='Rejected') TO /opt/mql/EnoviaCount/RITM7167960_08_20_2025/RejectedEBPData.csv WITH CSV HEADER;
+\COPY (select * from externalviewactionlog) TO /opt/mql/EnoviaCount/RITM7167960_08_20_2025/StatemovementData.csv WITH CSV HEADER;
+
+
+SIT  : psql "host=psql-pg-spcsit.postgres.database.azure.com port=5432 dbname=spcsitpgres user=hosting password=Welcome90 sslmode=require";
+	 : psql "host=psql-pg-spcsit.postgres.database.azure.com port=5432 dbname=specsitebppg user=hosting password=Welcome90 sslmode=require";
+QA   : psql "host=psql-pg-spcqa.postgres.database.azure.com port=5432 dbname=spcqapgres user=hosting password=Welcome90 sslmode=require"
+	 : psql "host=psql-pg-spcqa.postgres.database.azure.com port=5432 dbname=specqaebppg user=hosting password=Welcome90 sslmode=require"
+PROD : psql "host=psql-pg-spcprd.postgres.database.azure.com port=5432 dbname=spcprdpgres user=hosting password=Welcome90 sslmode=require"
+	   psql "host=psql-pg-spcprd.postgres.database.azure.com port=5432 dbname=spcprdebppg user=hosting password=Welcome90 sslmode=require"
+PROD : psql -h psql-pg-spcprd.postgres.database.azure.com -p 5432 -d spcprdebppg -U hosting password=Welcome90
+DEVS : psql "host=psql-pg-spcdevap2.postgres.database.azure.com port=5432 dbname=specdev2ebppg user=hosting password=Welcome20 sslmode=require";
+
+psql -h psql-pg-spcff.postgres.database.azure.com -p 5432 -d spcffebppg -U hosting password=Welcome90
+psql "host=psql-pg-spcff.postgres.database.azure.com port=5432 dbname=spcffpgres user=hosting password=Welcome90 sslmode=require"
+
+select * from max_user_activity_counter
+select preference from users where company = 'PG Staff Augmentation';
+select ebpname,ebptype,ebpstate,ebpid,ebpmodified,frompartspecmodified,submitteddate,modifieddate,releasedate from externalviewnextgen where ebpname = '90481699';
+select ebpname,ebptype,ebpstate,ebpid,ebpmodified,modifieddate,frompartspecmodified from externalviewnextgen where ebpname = 'ebpsum_90481699003~15308182';
+update user_activity_counter set activity_count = 0 where user_name = 'unnam.nr';
+
+delete from users where user_name='anywherenine.im';
+delete from externalviewnextgen where ebpid = '20336.41905.25487.30759';
+
+update externalviewnextgen set ebpstate = 'Pending' where ebpname = 'ebpsum_21372045001~15275538';
+update externalviewnextgen set modifieddate = now() where ebpname = 'ebpsum_20110245001~A868';
+update externalviewnextgen set frompartspecmodified = now() where ebpname = 'ebpsum_21372045001~15275538';
+
+update users set hir_compliant = 'Yes' where user_name = 'portal.2191927';
+update users set preference = 'TRUE' where preference = '';
+
+
+;
+
+
+update users set security_context = 'Spec Reader User.PG.Internal_PG' where user_name = 'stackpole.ab';
+
+update vendordetails set vendor_name = 'BAJAJ HEALTHCARE TESTING VENDOR LIMITED~15342494' where vendor_id = '20336.41905.38114.8720';
+
+update users set licenses = 'Dish Care-HiR|Dish Care-R|Oral Care-HiR|Hair Care-R|Digestive Wellness-R|Hair Care-HiR|Surface Care-HiR|Toilet Tissue-R|Tampons-R|SMO-HiR|Laundry-R|Bleach and Laundry
+Additives-R|Diapers-R|Surface Care-R|System VTO1-R|Air Care-HiR|Blades and Razors-HiR|Air Care-R|Napkins-R|Appliance-R|Oral Care-R|Diapers-HiR|Feminine Pads-R|Facial Ti
+ssue-R|System VTO3-R|System VTO2-R|Blades and Razors-R|Antiperspirants DO-R|Adult Incontinence-R|Baby Wipes-HiR|Adult Incontinence-HiR|Paper Towels-HiR|TAOS-R|Laundry-H
+iR|SMO-R|Fabric Enhancers-R|Appliance-HiR|Pain and Nerve-R|Baby Wipes-R|System VTO1-HiR'  where user_name = 'unnam.nr';
+
+TRUNCATE TABLE externalviewnextgentemp;
+TRUNCATE TABLE users;
+
+select count(*) from users where preference='false';
+select count(*) from users where preference='false';
+select user_name,state,company from users where user_type='SBM';
+select user_name,last_login_date,user_type,state from users where (user_type='SBM' and last_login_date IS NOT NULL);
+select user_name,state,company from users where (user_type='SBM' and company IS NOT NULL);
+select * from users where user_name='portal.240352_10';
+select * from users where user_email='sbmtestidm06@gmail.com';
+
+select * from users where user_name='pentesttester01.im';
+select * from users where user_name='pentesttester02.im';
+select * from users where user_name='pentesttester03.im';
+
+temp query bus * * * where '(current==Release && attribute[pgGBU].value =="FABRIC & HOME CARE" && vault == "eService Production")' select current attribute[pgGBU].value dump | Output /opt/mql/EBPDataSBM/Staging/FabricData.csv;
+
+
+POSTGress:
+SIT : psql "host=psql-pg-spcsit.postgres.database.azure.com port=5432 dbname=specsitebppg user=hosting password=Welcome90 sslmode=require";
+
+
+*************************************8888
+psql "host=spcdev2pgres.postgres.database.azure.com port=5432 dbname=spcdev2pgres user=hosting@spcdev2pgres password=Welcome20 sslmode=require";
+
+
+spcdev2pgres=> select * from specanywhere_details;
+ object_name |    user_id     | user_on_access
+-------------+----------------+----------------
+
+create table 
+
+
+CREATE TABLE specanywhere_details (object_name VARCHAR(255), user_id VARCHAR(255), user_on_access VARCHAR(255));
+*******************
+*********************************************
+Partial Indexing Failure steps:
+
+1. comment below cronjobs.
+	#*/3 * * * * /mnt/mql/PartialIndexing/SRMonitortableData.sh >> /mnt/mql/PartialIndexing/SRMonitorCron.out 2>&1 &
+	#*/3 * * * * /mnt/mql/PartialIndexing/PartialIndexingStatusCheck.sh >> /mnt/mql/PartialIndexing/PartialIndexingStatusCheck.out 2>&1 &
+
+2.  Verify any PartialIndexing tcl's are still running. If yes, Please wait till those process to complete.
+	Ps -ef | grep tcl 
+3. if no tcl's are running, execute ps -ef | grep sh. Normally this will happen when we had disk space issue.
+	i. kill back end process (kill -9  <PID>)
+	ii. Veriy all rclone logs from /mnt/resource/logs/rclone
+	iii. if you see below kind of error, this we have space issue
+	2021/12/13 04:57:55 ERROR : TMS_2021-12-13-04-57-55.csv: vfs cache: failed to open item: vfs cache item: check object failed: vfs cache item: open truncate failed: vfs
+	cache: truncate: failed to open cache file: open /root/.cache/rclone/vfs/enovia-csv-container/enovia-csv-container/TMS_2021-12-13-04-57-55.csv: no space left on device
+	2021/12/13 04:57:55 NOTICE: vfs cache: in KickCleaner, ready to kick cleaner 
+	iv. try accessing mount path (blob storage ex : /usr/etc/enovia-csv-content/)
+	v. If mount path not accessible, we need to restart rclone
+			i. execute fusermount -zu /usr/etc/enovia- csv -content 
+			ii. ps -ef | grep rclone
+			iii. if still rclone running execute : kill -9 <PID>
+			iv. delete/backup old rclone logs
+			v. Execute below respective command to start clone
+
+rclone mount enovia-user-report:enovia-user-report /usr/etc/enovia-user-report --vfs-cache-mode writes --buffer-size 10M --daemon --log-file=/mnt/resource/logs/rclone/rclone_user_report.log
+rclone mount enovia-vendor-container:enovia-vendor-container/ /usr/etc/enovia-vendor-content --vfs-cache-mode writes --buffer-size 10M --daemon --log-file=/mnt/resource/logs/rclone/rclone_vendor.log
+rclone mount enovia-user-container:enovia-user-container/ /usr/etc/enovia-user-content/ --vfs-cache-mode writes --buffer-size 10M --daemon --log-file=/mnt/resource/logs/rclone/rclone_user.log
+rclone mount enovia-csv-container:enovia-csv-container/ /usr/etc/enovia-csv-content/ --vfs-cache-mode writes --buffer-size 10M --daemon --log-file=/mnt/resource/logs/rclone/rclone_csv.log
+rclone mount enovia-externalview-content:enovia-externalview-content /usr/etc/enovia-externalview-content --daemon --log-file=/mnt/resource/logs/rclone/rclonelog_external.log
+			
+			vi. Verify rclone logs. Logs should be empty
+			vii. Verify rclone process running (ps -ef | grep rclone)
+
+4. uncomment above commented cronjobs. Since inputtime.txt already have timestamp where its stopped, it will execute from there and no data loss.
+
+Please reach me if you still need any clarification
+
+********************************************************
+
+/opt/oracle/product/19.3_64bitclient/bin/sqlplus: error while loading shared libraries: libsqlplus.so: cannot open shared object file: No such file or directory
+
+chown -R specsreaderadmin:specsreaderadmin /opt/oracle/product/19.3_64bitclient
+
+chmod -R 775 /opt/oracle/product/19.3_64bitclient
+
+DEVSAP Postman URL:
+https://137.182.150.52:7071/enovia-api/DSMReport/ReportList/user
+
+SIT Postman URL:
+https://10.123.192.55:443/enovia-api/DSMReport/ReportList/user
+
+PostMan URL for Dynamic Sub:
+Details: https://localhost:6068/enovia-api/ds/DynDetail/objectid  EnoviaDSServiceImpl.java
+
+POA Override - Legal Rework Required
+poaoverride
+Create Index and Delete:
+
+Command : 
+http://137.182.150.29:9303/object_data?pretty
+http://137.182.150.29:9303/externalview_data?pretty
+http://137.182.150.29:9303/_cat/indices
+
+
+http://10.123.192.34:9303/_cat/indices
+curl -XDELETE "10.123.192.34:9303/sitdocs_x_6"
+
+https://www.aha.video/player/movie/senapathi
+
+
+QA Index:
+
+curl GET 'https://azl-spcqaesn01.xnp-cloud-pg.com:9200/_cat/indices?pretty'
+
+curl GET 'http://10.123.192.34:9303/_cat/indices?pretty'
+
+DEVAP:
+curl GET 'http://137.182.150.29:9303/_cat/indices?pretty'
+
+https://plmh2cloud.pg.com/enovia
+dsotest35.im
+3Blind_Mice
+
+dsotest41 pwd
+
+JAVA 11
+keytool -import -alias Entrust -keystore "/usr/java/jdk-11.0.13+8/lib/security/cacerts" -file "/opt/matrix/3dspace/Entrust-L1.cer"
+
+
+/opt/java11/bin/keytool -import -alias Entrust -keystore /opt/java11/jre/lib/security/cacerts -file /tmp/cacerts -alias digicertglobalrootg2
+changeit
+
+keytool -import -alias Entrust -keystore "/usr/java/jdk-11.0.13+8/lib/security/cacerts" -file "/opt/matrix/Entrust-L1.cer"
+
+Requirement 43397 - The system shall be compatible with the Enovia 22x upgrade
+
+Requirement 43398 - The systems code should be organized and simplified for easier management
+
+Requirement 41754 - Spec Reader SR22x.1_NovemberCW Parts UI Views
+
+Defect 41754 - Spec Reader SR22x.1_NovemberCW Parts UI Views
+
+
+rclone mount enovia-user-container:enovia-user-container/ /usr/etc/enovia-user-content/ --daemon --allow-non-empty --log-file=/mnt/resource/rclonecsvlog.txt
+rclone mount enovia-user-report:enovia-user-report /usr/etc/enovia-user-report --vfs-cache-mode writes --buffer-size 10M --daemon --log-file=/mnt/resource/rclone_user_report.log
+rclone mount enovia-vendor-container:enovia-vendor-container/ /usr/etc/enovia-vendor-content --vfs-cache-mode writes --buffer-size 10M --daemon --allow-non-empty --log-file=/mnt/resource/rclonelog_vendor.txt
+rclone mount enovia-externalview-content:enovia-externalview-content /var/opt/logs/RcloneContainers/enovia-externalview-content/ --vfs-cache-mode off --buffer-size 10M --daemon --allow-non-empty --log-file=/mnt/resource/rclonelog_external.log
+rclone mount enovia-csv-container:enovia-csv-container/ /var/opt/logs/RcloneContainers/enovia-csv-content/ --vfs-cache-mode off --buffer-size 10M --daemon --allow-non-empty --log-file=/mnt/resource/rclone_csv.log
+
+
+Task List:
+
+Requirements
+1. TCL change to Tag name
+2. TCL Changes to IRMSTore gendoc path
+3. Company Change TCL requirement-description
+
+
+ArtiosCad Component:
+SeachServiceHelper.java 6.0.3
+SeachServiceHelper.java 6.0.2
+
+
+To Be removed in index Creation from Exsting Index:
+
+GET : http://137.182.150.29:9303/doc_data
+put : http://137.182.150.29:9303/doc_data
+
+1.
+							,
+"uuid": "7jhWbAvwQKytadmU3UeIYA",
+"version": {
+	"created": "7160399"
+}
+
+2.
+
+"provided_name": "doc_data",
+"creation_date": "1653553847112",
+
+3.
+"routing": {
+			"allocation": {
+				"include": {
+					"_tier_preference": "data_content"
+				}
+			}
+		},
+4.
+    "doc_data": {
+        "aliases": {},
+		
+5. Extra "}" at the end
+
+
+****************************
+Export Control Library -----will change to ------ IP Protection Library
+Non Disclosure Agreement ---- will change to ----- IP Excpetion
+Program Briefing -------- will change to --------- Security Excpetion
+
+User Registration impact
+22 types removed
+Security Changes - Rel change from 'Classified Item' to 'Protected Item'
+Security changes - attribute on IP classification, pgIPClassAvailableForClassification will be removed.
+Company display name changed to Title
+***************************
+
+
+Finame Name CHange MQL Querys:
+
+Modify File Name:modify bus T N R rename file "<currentFIlename>" "New FileName";
+ 
+Move Format:modify bus "$sObjectType" "$sObjectName" "$sObjectRevision" move format "$sFileFormat" from "$sObjectType" "$sObjectName" "$sObjectRevision" format "$sRequiredFormat" file "$sFileName"
+
+
+DEVAP:
+Username=plm18x0mdev
+Password=5zuHzvFUhdu2GfAd
+ConnectString=//azl-spcaptdb003.np-cloud-pg.com:1524/specd4.ap.pg.com
+Driver=Oracle/OCI80
+EncryptionVersion=11
+
+
+#Company Change Crons. Please do not remove
+30 11 * * * /mnt/mql/CompanyNameChange/CompanyNameChange.sh >> /mnt/mql/CompanyNameChange/Companycron.out 2>&1 &
+33 11 * * * /mnt/mql/CompanyNameChange/UserProfile.sh >> /mnt/mql/CompanyNameChange/Usercron.out 2>&1 &
+
+
+SIT:
+rclone mount enovia-csv-container:enovia-csv-container /usr/etc/enovia-csv-content --allow-non-empty --daemon --log-file=/mnt/mql/logs/rclone/rclone_csv.log
+rclone mount enovia-externalview-content:enovia-externalview-content /usr/etc/enovia-externalview-content --allow-non-empty --daemon --log-file=/mnt/mql/logs/rclone/rclonelog_external.log
+rclone mount enovia-user-report:enovia-user-report /usr/etc/enovia-user-report --allow-non-empty --daemon --log-file=/mnt/mql/logs/rclone/rclone_user_report.log
+rclone mount user-profile:user-profile /usr/etc/enovia-user-content --allow-non-empty --daemon --log-file=/mnt/mql/logs/rclone/rclone_userprofile.log
+
+rclone mount enovia-externalview-content:enovia-externalview-content /opt/matrix/EBP_Data/ --allow-non-empty --daemon --log-file=/mnt/mql/logs/rclone/rclonelog_external.log
+
+fusermount -zu /opt/matrix/
+
+fusermount -zu /opt/matrix/enovia-externalview-content
+
+WishList:
+1.SR Monitor Disnit loop
+2.FCS Server FsCrawler
+3.Logstash Pointing to DB
+export http_proxy=''
+export https_proxy=''
+
+#Company Change Crons. Do not remove
+30 11 * * * /mnt/mql/CompanyNameChange/CompanyNameChange.sh >> /mnt/mql/CompanyNameChange/Companycron.out 2>&1 &
+
+https://plmcontinuousdev.pg.com/enovia
+
+https://www.youtube.com/watch?v=FRn5J31eAMw
+
+
+
+Infy: 2411946 Gowthami
+
+sysdate - (2/(24*60))
+
+./mql -install -b MATRIX-R -user PLM18X0MDEV -password Mdev_plm18x0 -host //azl-spcaptdb01.np-cloud-pg.com:1524/specd2.ap.pg.com -driver 'Oracle/OCI80'
+*********************************
+
+user name 	   : PLM18X0MDEV
+password       : Mdev_plm18x0
+
+
+Yammer:
+https://web.yammer.com.rproxy.goskope.com/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzNTg0ODY5OTkwNCJ9
+
+
+****************
+Upgrade Points:
+1. Advanced Search
+2. Freezing till Gendoc/PDF avaibale
+3. Instead of > will change to Bullets
+4. Recent Reports
+5. Recent Search Objects
+6. Create own Custom View
+
+
+****P&G Teams
+https://teams.microsoft.com.rproxy.goskope.com/_#/conversations/19:f9bb53d7c3ba42d1a3a4699144613057@thread.v2?ctx=chat
+
+[Monday 5:16 AM] Murali, Ashwini [Non-PG]
+https://dev.azure.com/pg-idq-devops/IDQ%20Spec%20Reader/_backlogs/backlog/IDQ%20Spec%20Reader%20Team/Stories/
+
+ [11:39 AM] Unnam, Jwala [Non-PG]
+Can you pls verify "SHANGHAI PLANT-BRAUN SHANGHAI~8493" plant
+        
+
+Speeking test:
+
+https://www.youtube.com/watch?v=yBEABOidnnE&list=PLRZwE790uWkBSRHNo3PdB_xZNGKtt0ahY&index=2
+
+Listining Test :
+https://www.youtube.com/watch?v=lF82x9Wmkvw&list=PLRZwE790uWkBNGbMWMObhNMOwftatbRRp
+
+Reading test :
+https://www.youtube.com/watch?v=jyR1eT5H3NY&list=PLRZwE790uWkDDUTsgWOwIL7TVygYSE3W8
+
+Writing Test
+
+pgIPMPlantOrSupplierToSummary
+pgIPMSummaryToProductData // Part
+
+Put-
+https://137.182.150.51:7036/report-api/updateVendors DEVS
+
+SBM Password:
+username/email: sbmtestidm01@gmail.com/sbmtestidm02@gmail.com/sbmtestidm03@gmail.com
+password: 2025=IDMtest
+SBM!2024test-->Gmail Password
+
+
+**************
+POA File Name
+emxCommonFileUIBase_mxJPO.java
+D:\DSM\GIT\plm-3dx\SpinnerPagePrograms\Business\SourceFiles\emxCommonFileUIBase_mxJPO.java
+getFIles()
+
+POA_FILE_FIX
+
+
+
+
+ES Update: EBP Object
+
+/opt/mql/sr-to-sbm-ebpcontent // SBM Export file Path
+where (releasedate >= (NOW() - interval '15 Days') OR frompartspecmodified >= (NOW() - interval '15 Days') OR submitteddate >= (NOW() - interval '15 Days')) AND frompartspecstate='Release' AND ebpstate = 'Pending'
+
+"releasedate" : "04/17/2025 09:14:53 AM"
+"frompartspecmodified" : "06/17/2025 12:30:29 AM",
+"submitteddate" : "2025-06-09T20:07:14.468Z",
+
+1. Release Date/Modified Date and State should be Pending State.
+
+D:\SpecsAnywhere\EBPRetriggerData
+
+
+108020- Extended attributes not shown for SR users
+
+http://specreaderqaap.pg.com/
+
+***********************************
+
+House_158Pros
+
+PLMPRD3ADMIN   : QA3admin_2026Aug  
+SIMP_READ      : QASIMPRD_2026Aug
+sys_specreader : SR22x_SeptAdminQA
+
+New QA VMS:
+10.123.192.12     azl-srqdb01.external.pg.com   
+10.123.192.24     azl-srqui01.external.pg.com
+   
+10.123.192.40     azl-srqmql01.external.pg.com  
+10.123.192.72     azl-srqmql11.external.pg.com  
+10.123.192.73     azl-srqmql12.external.pg.com  
+10.123.192.74     azl-srqmql13.external.pg.com  
+10.123.192.75     azl-srqmql14.external.pg.com 
+ 
+10.123.192.61     azl-srqesn01.external.pg.com  
+10.123.192.68     azl-srqesn02.external.pg.com  
+10.123.192.66     azl-srqesn03.external.pg.com  
+10.123.192.58     azl-srqeskb01.external.pg.com 
+10.123.192.52     azl-srqeslog01.external.pg.com
+10.123.192.70     azl-srqms01.external.pg.com   
+10.123.192.69     azl-srqms02.external.pg.com 
+
+New SIT VMS:
+
+10.123.192.39       azl-srsdb01.external.pg.com
+    
+10.123.192.78       azl-srsui01.external.pg.com
+    
+10.123.192.83       azl-srsmql01.external.pg.com   
+10.123.192.84       azl-srsmql11.external.pg.com   
+10.123.192.89       azl-srsmql12.external.pg.com   
+10.123.192.81       azl-srsmql13.external.pg.com   
+10.123.192.80       azl-srsmql14.external.pg.com
+   
+10.123.192.87       azl-srsesn01.external.pg.com   
+10.123.192.88       azl-srsesn02.external.pg.com   
+10.123.192.77       azl-srsesn03.external.pg.com
+   
+10.123.192.86       azl-srseskb01.external.pg.com  
+10.123.192.85       azl-srseslog01.external.pg.com 
+10.123.192.82       azl-srsms01.external.pg.com    
+10.123.192.79       azl-srsms02.external.pg.com    
+
+
+azl-enah101.external.pg.com
+
+https://grafana.spyglass.pg.com/ 
+
+
+Username - plmprd3admin
+Password - Prd3_plmAdm|n
+Connection string - (DESCRIPTION=(SOURCE_ROUTE=OFF)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=azl-srqdb01.external.pg.com)(PORT=1524)))(CONNECT_DATA=(SID=srazq001)(SERVER=DEDICATED)))
+
+
+SELECT
+    column_name,
+    data_type,
+    character_maximum_length
+FROM information_schema.columns
+WHERE table_name = 'offlineobjects'
+ORDER BY ordinal_position;
+
+https://dev.azure.com/pg-idq-devops/IDQ%20Spec%20Reader/_build?view=folders
+
+Object Initial Load Indexing -
+ 
+<GITREPO>\enovia-initial-load-extract\SR22x.1_FEB_CW\InitialLoad_22x_QA_PROD
+ 
+Nextgen Indexing and Partial Indexing -
+ 
+<GITREPO>\enovia-initial-load-extract\Scripts_Release_6.0.4_NextGen_EBPViews
+
+
+26X QA:
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" 'https://azl-srqesn01.external.pg.com:9200/_cat/indices?pretty'

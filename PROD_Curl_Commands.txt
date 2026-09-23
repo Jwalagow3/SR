@@ -1,0 +1,761 @@
+*/15 * * * * /opt/mql/EBP_Object_Deletion/EBPDeletionSummary.sh >> /opt/mql/EBP_Object_Deletion/EBPDeletionCron.out 2>&1 &
+
+curl -u elastic:2-Dt_RH9bmUeqxZ3V5X+ 'https://azl-spcprdesn01.external.pg.com:9200/_cat/indices?pretty'
+
+
+curl -u elastic:2-Dt_RH9bmUeqxZ3V5X+ -XGET 'https://azl-spcprdesn01.external.pg.com:9200/nextgenebp_july25/_mapping?pretty'
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" 'https://azl-srqesn01.external.pg.com:9200/_cat/indices?pretty'
+
+26xQA:
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X GET "https://azl-srqesn01.external.pg.com:9200/object_data/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "type" : "pgArtwork"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+PROD:
+curl -u elastic:2-Dt_RH9bmUeqxZ3V5X+ -X GET "https://azl-spcprdesn01.external.pg.com:9200/object_data_v8_1/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "name" : "83928371"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+FF: Object
+
+curl -u elastic:Vz_CfA=ZdQZE9AObAAH2 -X GET "https://azl-spcffesn11.external.pg.com:9200/object_data_22x/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "name" : "DOC-1041731"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+curl -u elastic:Vz_CfA=ZdQZE9AObAAH2 -X GET "https://azl-spcffesn11.external.pg.com:9200/object_data_22x/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "tag" : "Packaging Material Part: PMP"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+AZL-ENAH402.np-cloud-pg.com
+
+ebpsum_21336962001~4424
+
+curl -u elastic:2-Dt_RH9bmUeqxZ3V5X+ -X GET "https://azl-spcprdesn01.external.pg.com:9200/nextgenebp_july25/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname" : "ebpsum_80736643006~1453"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+
+curl -X GET "137.182.150.51:9303/nextgenebpsbm/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname": "ebpsum_91659350010~CA24"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+http://137.182.150.51:9303/externalview_nextgen_data/_search?pretty
+
+
+curl -X GET "137.182.150.51:9303/externalview_nextgen_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname":"ebpsum_90696315001~CA24"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/externalview_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match": {
+                        "EBPId": "20336.41905.13262.19908"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/object_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase_prefix": {
+                        "tag":"Making Instruction"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+curl GET 'https://azl-spcprdesn01.x-cloud-pg.com:9200/_cat/indices?pretty'
+
+object_data_22x
+externalview_data_22x
+
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/object_data/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query":
+{
+"match_phrase":
+{
+"path" : "/usr/etc/enovia-csv-content/DPP_2022-11-21-04-41-01.csv"
+}
+}
+}
+'
+
+Print schema:
+QA 26x: curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" 'https://azl-srqesn01.external.pg.com:9200/nextgenebp_8x/_mapping?pretty'
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT 'https://azl-spcqaesn01.external.pg.com:9200/_cat/indices?v'
+
+INDICES:
+
+26x QA: curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" 'https://azl-srqesn01.external.pg.com:9200/_cat/indices?pretty'
+
+
+
+QA   : curl -k -u elastic:h5NA5E6SXN0UGqmwbwUT 'https://azl-spcqaesn01.external.pg.com:9200/_cat/indices?v'
+SIT  : curl -k -u elastic:Zyad5zZyKCLo9Cwo-yhH 'https://azl-spcapsesn11.external.pg.com:9200/_cat/indices?v'
+PROD : curl -k -u elastic:2-Dt_RH9bmUeqxZ3V5X+ 'https://azl-spcprdesn01.external.pg.com:9200/_cat/indices?v'
+FF   : curl -k -u elastic:Vz_CfA=ZdQZE9AObAAH2 'https://azl-spcffesn11.external.pg.com:9200/_cat/indices?v'
+
+
+Print Schema:
+QA 26x : curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X GET 'https://azl-srqesn01.external.pg.com:9200/object_data/_mapping?pretty'
+
+
+curl -u elastic:Vz_CfA=ZdQZE9AObAAH2 -X GET 'https://azl-spcffesn11.external.pg.com:9200/object_data_22x/_mapping?pretty'
+curl -u elastic:Vz_CfA=ZdQZE9AObAAH2 -X GET 'https://azl-spcffesn11.external.pg.com:9200/nextgenebp_july25/_mapping?pretty'
+curl -u elastic:2-Dt_RH9bmUeqxZ3V5X+ -X GET 'https://azl-spcprdesn01.external.pg.com:9200/object_data_22x/_mapping?pretty'
+
+ES DELETE:
+curl -u elastic:Zyad5zZyKCLo9Cwo-yhH -XDELETE 'https://azl-spcapsesn11.external.pg.com:9200/object_data_v8_1'
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XDELETE 'https://azl-spcqaesn01.external.pg.com:9200/object_data_v8_1'
+curl -u elastic:Vz_CfA=ZdQZE9AObAAH2 -XDELETE 'https://azl-spcffesn11.external.pg.com:9200/object_data_22x'
+
+curl 'https://azl-spcprdesn01.external.pg.com:9200/_cat/indices?v'
+curl -u elastic:Zyad5zZyKCLo9Cwo-yhH 'https://azl-spcapsesn11.external.pg.com:9200/_cat/indices?pretty'
+curl 'https://azl-spcapsesn11.external.pg.com:9200/_cat/indices?v'
+curl 'https://azl-spcapsesn11.external.pg.com:9200/object_data_july25'
+https://azl-spcapsesn11.external.pg.com:9200
+curl 'https://azl-spcffesn11.external.pg.com:9200/_cat/indices?v'
+curl 'http://137.182.150.51:9303/_cat/indices?v'
+curl 'http://137.182.150.29:9303/_cat/indices?v'
+
+
+curl -XDELETE 'https://azl-spcapsesn11.external.pg.com:9200/object_data_july25'
+
+curl -XGET 'https://azl-spcapsesn11.external.pg.com:9200/object_data_july25/_mapping?pretty'
+
+curl -XGET 'https://azl-spcqaesn01.external.pg.com:9200/externalview_nextgen_epbnew/_mapping?pretty'
+curl -XGET 'https://azl-spcprdesn01.external.pg.com:9200/externalview_nextgen/_mapping?pretty'
+curl 'https://azl-spcqaesn01.external.pg.com:9200/externalview_nextgen_epbnew
+https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_nextgen_data
+
+http://137.182.150.29:9303/externalview_nextgen_ebpdata
+
+curl -X DELETE "https://137.182.150.51:9303/externalview_nextgen_data"
+
+http://137.182.150.29:9303/
+
+curl 'https://azl-spcapsesn11.xnp-cloud-pg.com:9200/_cat/indices?h=health,status,index,id,pri,rep,docs.count,docs.deleted,store.size,creation.date.string&v='
+
+Index Details:
+http://localhost:9200/_cat/indices?h=health,status,index,id,pri,rep,docs.count,docs.deleted,store.size,creation.date.string&v=
+
+Schema Verify:
+curl -XGET 'https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_nextgen_data/_mapping?pretty'
+curl -XGET 'https://azl-spcqaesn01.xnp-cloud-pg.com:9200/externalview_nextgen_data/_mapping?pretty'
+
+
+curl 'https://azl-spcprdesn01.x-cloud-pg.com:9200/_cat/indices?v'
+
+curl -X DELETE "https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_data/_doc/20336.41905.27481.4732?pretty"
+
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT 'https://azl-spcqaesn01.external.pg.com:9200/_cat/indices?v'
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XGET 'https://azl-spcqaesn01.external.pg.com:9200/object_data_jan26/_mapping?pretty'
+curl -u elastic:Zyad5zZyKCLo9Cwo-yhH -XGET 'https://azl-spcapsesn11.external.pg.com:9200/object_data_v8/_mapping?pretty'
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XDELETE 'https://azl-spcqaesn01.external.pg.com:9200/object_data_v8'
+
+curl -XDELETE "10.123.192.34:9303/sitdocs_x_6"
+
+curl -u elastic:Zyad5zZyKCLo9Cwo-yhH -XGET 'https://azl-spcapsesn11.external.pg.com:9200/object_data_v8/_settings?pretty'
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XGET 'https://azl-spcqaesn01.external.pg.com:9200/object_data_july25/_settings?pretty'
+
+/object_data_jan26/_settings?pretty
+
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" \
+-X GET "https://azl-spcqaesn01.external.pg.com"
+
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X POST \
+https://azl-spcqaesn01.external.pg.com:9200/_security/user/_has_privileges \
+-H "Content-Type: application/json" \
+-d '{
+  "index": [
+    {
+      "names": ["nextgeneb_v8"],
+      "privileges": ["delete_by_query"]
+    }
+  ]
+}' 
+
+
+QA:
+curl GET 'https://azl-spcqaesn01.xnp-cloud-pg.com:9200/_cat/indices?pretty'
+
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT 'https://azl-spcqaesn01.external.pg.com:9200/_alias/nextgenebp_v8'
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XGET 'https://azl-spcqaesn01.external.pg.com:9200/nextgenebp_july25/_mapping?pretty'
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X GET "https://azl-spcqaesn01.external.pg.com:9200/object_data_v8_1/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "name" : "90183899"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+QA EBP:
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X GET "https://azl-spcqaesn01.external.pg.com:9200/nextgenebp_8x/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname": "ebpsum_QUAL-00005966002~15106045"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+Delete ES Object:
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" -X POST "https://azl-spcqaesn01.external.pg.com:9200/nextgenebp_july25/_delete_by_query?pretty" \
+     -H "Content-Type: application/json" \
+     -d'
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "term": { "ebptype.keyword": "pgIPMEBPSummary" } },
+        { "term": { "ebpname.keyword": "ebpsum_22192674001~CA24" } }
+      ]
+    }
+  }
+}'
+
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" -s -X GET "https://azl-spcqaesn01.external.pg.com:9200/nextgenebp_july25/_search?pretty" \
+     -H "Content-Type: application/json" \
+     -d'
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "match_phrase": { "ebptype": "pgIPMEBPSummary" } },
+        { "match_phrase": { "ebpname": "ebpsum_22192554003~3378" } }
+      ]
+    }
+  }
+}'
+
+curl -X DELETE "https://azl-spcqaesn01.xnp-cloud-pg.com:9200/externalview_nextgen_data/_doc/20336.41905.13189.13148?pretty"
+
+
+SIT EBP:
+curl -u elastic:Zyad5zZyKCLo9Cwo-yhH -X GET "https://azl-spcapsesn11.external.pg.com:9200/nextgenebp_8x/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname" : "ebpsum_90433760004~15308182"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+SIT:
+
+curl -u elastic:Zyad5zZyKCLo9Cwo-yhH -X GET "https://azl-spcapsesn11.external.pg.com:9200/object_data_v8_1/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "id" : "20336.41905.36731.16098"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+Delete Specific Data from ES:
+
+curl -X POST "https://azl-spcapsesn11.external.pg.com:9200/object_data_july25/_delete_by_query" -H 'Content-Type: application/json' -d'
+{
+"conflicts": "proceed",
+"query": {
+        "match_phrase": {
+            "tag": "Authorized Configuration Standard: ACS"
+        }
+    }
+}
+'
+
+curl -X POST "https://azl-spcapsesn11.external.pg.com:9200/object_data_22x_4/_update/20336.41905.35292.33512?pretty" -H 'Content-Type: application/json' -d'
+{
+"doc": {
+"SupVisible": "- | wen.wc.1_PRJ | Access Granted Through R-1931595- | kaur.s.8_PRJ | Access Granted Through R-1931595- | chen.yi.16_PRJ | Access Granted Through R-1931595- | schmitt.m.7_PRJ | Access Granted Through R-1931595 SCHAWK UK LTD~10032126 | - | - | kaur.s.8_PRJ | GROSS-GERAU PLT-ENTREPRENEUR~0288 | STI GUSTAV STABERNACK GMBH~10101190 | "
+}
+}
+'
+
+curl -X GET "https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "EBPName": "ebpsum_91161266001~CA24"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+curl -X DELETE "https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_data/_doc/20336.41905.30465.22291?pretty"
+
+curl -X DELETE "https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_data/_doc/20336.41905.64709.44749?pretty"
+
+curl -X DELETE "https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_data/_doc/20336.41905.48312.62041?pretty"
+
+
+
+curl 'http://10.123.192.34:9303/_cat/indices?v'
+
+FF:
+
+
+FF:
+curl -X GET "https://azl-spcffesn11.external.pg.com:9200/object_data_22x/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "name": "02772433"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+curl -X GET "https://azl-spcffesn11.xnp-cloud-pg.com:9200/externalview_nextgen_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname": "ebpsum_POA-00474881001~A688"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+DEVAP:
+curl -X GET "http://137.182.150.29:9303/object_data_22x_4/_count?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "path": "/usr/etc/enovia-csv-content/ACS_2024-05-28-17-11-28.csv"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+curl -X GET "http://137.182.150.51:9303/"externalview_nextgen"/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname": "ebpsum_10045285019~15283708"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+DEVS:
+curl -X GET "http://137.182.150.51:9303/object_data_july25/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "name": "91864186"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+curl -X GET "http://137.182.150.51:9303/nextgenebp_july25/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "ebpname": "ebpsum_20110245001~A868"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+/mnt/mql/PartialIndexing/Output/EBP_TMS_2022-12-13-15-16-42.csv
+scp *.csv unnam.nr@10.123.192.50:/etc/logstash/Archive/InitialLoad_22x_CSV_BACKUP
+scp *.csv unnam.nr@10.123.192.50:/mnt/specsreaderadmin/Archive/InitialLoad_22x_EBP_VIEW_CSV_BACKUP
+
+
+
+curl -X DELETE "https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_data/_doc/20336.41905.30465.22291?pretty"
+
+
+curl -X GET "http://10.123.192.34:9303/doc_data_ro/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "_id": "032630rlg4b4ickkog5ddl0wj7fz7qws58qayrbejww.ruv"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+curl -X GET "https://azl-spcprdesn01.x-cloud-pg.com:9200/doc_data/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+"query": {
+        "bool": {
+            "must": [
+                {
+                    "match_phrase": {
+                        "_id": "1d85sbq5-cqsw5stqpp8mhlcahq2oscuq_lbzgdk9gg.uhe"
+                    }
+                }
+            ]
+        }
+    }
+}
+'
+
+***************************
+UPDATE ES Query:
+
+curl -X POST "https://azl-spcprdesn01.x-cloud-pg.com:9200/externalview_nextgen_data/_update/20336.41905.9774.34670?pretty" -H 'Content-Type: application/json' -d'
+{
+"doc": {
+"currentview": "Accepted"
+}
+}
+'
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XGET 'https://azl-spcqaesn01.external.pg.com:9200/object_data_v8/_mapping?pretty'
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X POST "https://azl-spcqaesn01.external.pg.com:9200/object_data_v8x/_update/20336.41905.39754.11266?pretty" -H 'Content-Type: application/json' -d'
+{
+"doc": {
+"SupVisible": "CSS VTO 1~8093 | CSS VTO 2~CA24 | CSS VTO 3~CA25 | CSS VTO 4~8443 | VTO TEST SUPPLIER 1~20514297 | "
+}
+}
+'
+
+Delete Object from ES:
+curl -X DELETE "https://azl-spcapsesn11.external.pg.com:9200/object_data_july25/_doc/fH86V5gBiivvE3FA0Ct6?pretty"
+curl -X DELETE "https://azl-spcapsesn11.xnp-cloud-pg.com:9200/externalview_nextgen_data/_doc/20336.41905.49768.359?pretty"
+
+
+curl -X POST "https://azl-spcapsesn11.external.pg.com:9200/object_data_july25/_delete_by_query?pretty" -H 'Content-Type: application/json' -d'
+{
+  "query": {
+    "match": {
+      "path" : "/usr/etc/enovia-csv-content/APMP_2025-07-26-06-08-36.csv"
+    }
+  }
+}'
+
+
+********************
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT \
+https://azl-spcqaesn01.external.pg.com:9200/_alias/nextgenebp_v8
+
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT 'https://azl-spcqaesn01.external.pg.com:9200/_alias/nextgenebp_v8?'
+
+curl -X POST "https://azl-spcqaesn01.external.pg.com:9200/_security/role/index_user_role?pretty" -H 'Content-Type: application/json' -d'
+{
+  "cluster": ["monitor"],
+  "indices": [
+    {
+      "names": [ "nextgenebp_v8", "object_data_v8" ],
+      "privileges": [ "read", "view_index_metadata" ]
+    }
+  ]
+}
+' -u elastic:h5NA5E6SXN0UGqmwbwUT
+
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X GET "https://azl-spcqaesn01.external.pg.com:9200/_security/user/_privileges?pretty"
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X GET "https://azl-spcqaesn01.external.pg.com:9200/_security/user/_privileges?pretty"
+
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X POST "https://azl-spcqaesn01.external.pg.com:9200/_security/user/_has_privileges?pretty" -H 'Content-Type: application/json' -d'
+{
+  "index": [
+    {
+      "names": ["nextgenebp_v8"],
+      "privileges": ["read", "write", "delete", "manage", "view_index_metadata"]
+    }
+  ]
+}'
+
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XGET 'https://azl-spcqaesn01.external.pg.com:9200/object_data_v8/_mapping?pretty'
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XGET 'https://azl-spcqaesn01.external.pg.com:9200/object_data_v8/_settings'
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" -X POST "https://azl-spcqaesn01.external.pg.com:9200/nextgenebp_v8/_delete_by_query?conflicts=proceed&pretty" \
+     -H "Content-Type: application/json" \
+     -d'
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "match": { "ebptype": "pgIPMEBPSummary" } },
+        { "match": { "ebpname": "ebpsum_22187685001~CA24" } }
+      ]
+    }
+  }
+}'
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" \
+-H "Content-Type: application/json" \
+-X GET "https://azl-spcqaesn01.external.pg.com:9200/object_data_jan26/_search?pretty" \
+-d '{
+"query": {
+"term": {
+"name.keyword": "CUP"
+}
+}
+}
+'
+
+curl -u "elastic:Zyad5zZyKCLo9Cwo-yhH" -XGET 'https://azl-spcapsesn11.external.pg.com:9200/object_data_v8/_settings'
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -XGET 'https://azl-spcqaesn01.external.pg.com:9200/object_data_version8x/_settings'
+
+
+curl -u "elastic:Zyad5zZyKCLo9Cwo-yhH" \
+-H "Content-Type: application/json" \
+-X GET "https://azl-spcapsesn11.external.pg.com:9200/object_data_v8/_search?pretty" \
+-d '{
+"query": {
+"match": {
+"name": "CUP"
+}
+}
+}
+'
+
+
+scp *.tcl unnam.nr@azl-spcapsmql01.external.pg.com:/opt/mql/InitialLoad
+
+curl -u elastic:2-Dt_RH9bmUeqxZ3V5X+ -X GET "https://azl-spcprdesn01.external.pg.com:9200/object_data_22x/_analyze?pretty" -H 'Content-Type: application/json' -d'
+{
+"analyzer" : "object_data_22x",
+"text": "P501"
+}
+'
+
+curl -u "elastic:Zyad5zZyKCLo9Cwo-yhH" -X GET "https://azl-spcapsesn11.external.pg.com:9200/object_data_version8x/_analyze?pretty" -H 'Content-Type: application/json' -d'
+{
+"analyzer" : "object_data_version8x",
+"text": "BPR-HPSGP511-90258948"
+}
+'
+
+curl -X GET "https://azl-spcffesn11.external.pg.com:9200/object_data_22x/_analyze?pretty" -H 'Content-Type: application/json' -d'
+{
+"analyzer" : "object_data_22x",
+"text": "P501-21412459"
+}
+'
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" \
+-H "Content-Type: application/json" \
+-X GET "https://azl-spcqaesn01.external.pg.com:9200/object_data_v8_1/_search?pretty" \
+-d '{
+"query": {
+"match": {
+"name": "BPR-HPSGP501-21412459"
+}
+}
+}
+'
+
+
+curl -u "elastic:h5NA5E6SXN0UGqmwbwUT" -s -X POST "https://azl-spcqaesn01.external.pg.com:9200/object_data_v8_1/_?pretty" -H 'Content-Type: application/json' -d'
+{
+"query" : {
+"bool" : {
+"must" : [
+{
+"match_phrase" : {
+"title" : "BPR-HPSGP501-21412459"
+}
+}
+]
+}
+}
+}
+'
+
+curl -u elastic:h5NA5E6SXN0UGqmwbwUT -X GET "https://azl-spcqaesn01.external.pg.com:9200/object_data_v8_1/_analyze?pretty" -H 'Content-Type: application/json' -d'
+{
+"analyzer" : "object_data_v8_1",
+"text": "BPR-HPSGP501-21412459"
+}
+'
+
+curl -u elastic:2-Dt_RH9bmUeqxZ3V5X+ -X POST "https://azl-spcprdesn01.external.pg.com:9200/object_data_22x/_update/20336.41905.2636.16477?pretty" -H 'Content-Type: application/json' -d'
+{
+"doc": {
+"SupVisible": "LES EMBLLAGS KNOWLTON-GILLETTE~8468"
+}
+}
+'
